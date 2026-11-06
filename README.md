@@ -1,6 +1,6 @@
 # Hessaire mini-split: indoor/outdoor bus protocol
 
-A decode of the serial link between the indoor and outdoor units of a Hessaire ductless mini-split (Midea-built), captured with a Rigol DHO804 oscilloscope on 5 November 2026.
+A decode of the serial link between the indoor and outdoor units of a Hessaire ductless mini-split, captured with a Rigol DHO804 oscilloscope on 5 November 2026. The unit is probably built by Midea, but that is not confirmed; see [Manufacturer and related protocols](#manufacturer-and-related-protocols).
 
 The link runs at **300 baud, 8N1**. Every 5 seconds the indoor unit sends a **16-byte request** and the outdoor unit answers with a **26-byte reply**. Each message ends in an **8-bit sum checksum**. Setpoint and mode are confirmed by controlled experiments with the remote. Several temperature, compressor and valve fields are probable but not yet checked against a reference instrument.
 
@@ -14,6 +14,7 @@ The work started as a fault hunt: the unit ran indoors but never cooled. The bus
 - [Indoor request: 16 bytes](#indoor-request-16-bytes)
 - [Outdoor reply: 26 bytes](#outdoor-reply-26-bytes)
 - [Evidence](#evidence)
+- [Manufacturer and related protocols](#manufacturer-and-related-protocols)
 - [Limits of this decode](#limits-of-this-decode)
 - [Reproducing it](#reproducing-it)
 
@@ -63,7 +64,7 @@ The bottom panel shows the first three request bytes decoded bit by bit: `81`, `
 
 - **Checksum.** The last byte of each message is the sum of all the bytes before it, modulo 256. Every decoded frame used in this report passes it.
 - **Checksum blind spot.** A plain 8-bit sum misses some multi-bit errors. One captured reply had bit 7 flipped in four bytes, adding 4 × 0x80 = 0x200, which is 0 modulo 256, so the checksum still passed. The analysis therefore also drops any frame that breaks a byte that is constant in every other frame. That removed 2 of 253 replies.
-- **Temperatures** use the common Midea form **°C = (byte − 40) / 2**, in half-degree steps. This is confirmed on the setpoint byte and fits the room and coil bytes.
+- **Temperatures** use **°C = (byte − 40) / 2**, half-degree steps with an offset. This is confirmed on the setpoint byte and fits the room and coil bytes. Midea buses use the same half-degree style with other offsets: 48 on XYE, 50 for the setpoint on the MRCOOL unit below.
 
 ## Indoor request: 16 bytes
 
@@ -175,11 +176,41 @@ On Auto, byte 14 changed by itself as the room cooled, so it seems to report the
 
 ![Start-up trends](figures/startup.png)
 
+## Manufacturer and related protocols
+
+Hessaire does not say who builds its mini-splits, and no retailer listing found names the factory. Midea is the likely manufacturer, but the evidence is circumstantial:
+
+- **The wiring and signalling** match the L, N, S current loop that Midea mini-splits use between the indoor and outdoor units, with the two units driving the signal wire in opposite directions from an idle level.
+- **The temperature encoding** uses half-degree steps with an offset, the style of other Midea buses. The offset here, 40, differs from theirs (48 on [XYE](https://codeberg.org/xye/xye), 50 and 64 on the MRCOOL unit below), so this is only a weak hint.
+
+The framing, however, differs from the one documented for another Midea unit. Florian McKee decoded the LNS protocol of an MRCOOL DIY 12K 4th-generation unit ([Reverse Engineering Midea's LNS Communication Protocol](https://medium.com/@florian.mckee/reverse-engineering-mideas-s-wire-communication-protocol-8b0276fdfb8a)). Compared with this unit:
+
+| | MRCOOL DIY 12K, 4th gen (McKee) | This Hessaire unit |
+|---|---|---|
+| Wiring | L, N, S, ground | L, N, S, ground |
+| Signalling | idle about −10 V; one side bursts to about +20 V, the other to about −25 V | idle about +15 V; indoor pulls toward 0 V, outdoor pushes to about +25 V |
+| Serial format | 600 baud, 8E1 | 300 baud, 8N1 |
+| Message length | 18 bytes in both directions | 16 bytes indoor, 26 bytes outdoor |
+| Framing | starts `A5`, ends `5A` | starts `81` (indoor) or `28` (outdoor), no end marker |
+| Message types | four rotating types per direction (`10` `12` `14` `16` indoor, `11` `13` `15` `17` outdoor) | one fixed message per direction |
+| Checksum | two's complement of the sum of bytes 1–15 | sum of all preceding bytes |
+| Setpoint | whole °C in one byte; half-degrees with an offset of 50 (Celsius remote) or 48 (Fahrenheit remote) in another | half-degrees with an offset of 40 |
+
+So the physical idea is shared but the framing is not: there is no single "Midea S-wire protocol". This could be an older or different Midea generation, or a different manufacturer using the same wiring scheme. A capture from another Midea-built unit with the same format would settle it.
+
+Other documented Midea buses, all different from this one:
+
+| Bus | Where | Format |
+|---|---|---|
+| [S1/S2](https://github.com/MidATRIX/midea-s1s2-rs485-monitor) | low-voltage indoor/outdoor link on Senville units | RS-485, 4800 baud, `A0` frames, CRC-16 |
+| [XYE](https://codeberg.org/xye/xye) | central controllers on VRF indoor units | RS-485, 4800 baud, `AA` … `55` frames |
+| [ODU diagnostic port](https://github.com/fmck3516/midea-telemetry) | 5 V service port on the outdoor board | 10-byte `55` frames |
+
 ## Limits of this decode
 
 - **Confidence levels.** *Confirmed* means a controlled change on the remote moved the byte as predicted. *Probable* means the byte behaves the way the named quantity must. *Guess* means a plausible match with weak evidence. *Unknown* means no interpretation yet.
 - **No reference instruments.** Room, coil, discharge and current readings were not compared against a thermometer or clamp meter, so their scaling is inferred.
-- **One unit, one firmware.** Other Midea-built units can use different buses entirely. Senville units, for example, use a 4800-baud bus with CRC-16 frames.
+- **One unit, one firmware.** Other units, including other Midea-built ones, use different framing on the same kind of wire; see [Manufacturer and related protocols](#manufacturer-and-related-protocols).
 - **Not yet captured:** Heat mode, the remote labels for fan steps 3, 6 and 7, defrost, and error states.
 - **Listen only.** Nothing was ever transmitted on the bus. Injecting frames could confuse both boards.
 
