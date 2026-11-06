@@ -256,3 +256,7 @@ Scope notes for the DHO804 with NKmod 04.2 firmware:
 - At 50 ms/div and slower the scope switches to roll mode, which ignores the trigger. Use 20 ms/div or faster for triggered captures.
 - The memory-depth list is shifted one step: requesting 10M gives 1M points.
 - Repeated 5-million-point, 16-bit reads in roll mode crashed the scope app once. The logger uses 1-million-point, 8-bit reads.
+
+## License
+
+MIT, see [LICENSE](LICENSE). It covers the tools, text, figures and data in this repository. Third-party work referenced here, such as McKee's article and the other linked projects, keeps its own license.
