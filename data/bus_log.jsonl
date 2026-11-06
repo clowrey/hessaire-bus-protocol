@@ -1,0 +1,684 @@
+{"kind": "req", "t": -9.96169, "bytes": [129, 72, 100, 80, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 173], "stop_ok": true, "sum_ok": true, "wall": 0.0, "note": "running after repair, unchanged settings"}
+{"kind": "rep", "t": -9.32539, "bytes": [40, 67, 0, 0, 0, 0, 132, 0, 66, 39, 75, 112, 43, 1, 0, 69, 76, 63, 100, 100, 0, 60, 0, 1, 1, 21], "stop_ok": true, "sum_ok": true, "wall": 0.636, "note": "running after repair, unchanged settings"}
+{"kind": "req", "t": -4.99066, "bytes": [129, 72, 100, 80, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 173], "stop_ok": true, "sum_ok": true, "wall": 4.971, "note": "running after repair, unchanged settings"}
+{"kind": "rep", "t": -4.3517, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 39, 75, 112, 43, 1, 0, 69, 76, 64, 100, 100, 0, 59, 0, 1, 1, 148], "stop_ok": true, "sum_ok": false, "wall": 5.61, "note": "running after repair, unchanged settings"}
+{"kind": "req", "t": -8.6737, "bytes": [129, 72, 100, 79, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 172], "stop_ok": true, "sum_ok": true, "wall": 14.923, "note": "running after repair, unchanged settings"}
+{"kind": "rep", "t": -8.03491, "bytes": [40, 65, 0, 0, 0, 0, 132, 0, 64, 39, 75, 108, 43, 1, 0, 69, 77, 66, 100, 100, 0, 59, 0, 1, 1, 16], "stop_ok": true, "sum_ok": true, "wall": 15.561, "note": "running after repair, unchanged settings"}
+{"kind": "req", "t": -3.7024600000000003, "bytes": [129, 72, 100, 79, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 172], "stop_ok": true, "sum_ok": true, "wall": 19.894, "note": "running after repair, unchanged settings"}
+{"kind": "rep", "t": -3.06276, "bytes": [40, 64, 0, 0, 0, 16, 132, 0, 63, 39, 75, 106, 44, 1, 0, 69, 77, 66, 100, 100, 0, 60, 0, 1, 1, 14], "stop_ok": true, "sum_ok": false, "wall": 20.534, "note": "running after repair, unchanged settings"}
+{"kind": "req", "t": -9.85107, "bytes": [129, 72, 99, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 263.476, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -9.21571, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 38, 75, 86, 42, 1, 0, 70, 79, 75, 99, 105, 65, 60, 0, 2, 1, 50], "stop_ok": true, "sum_ok": true, "wall": 264.112, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -4.88003, "bytes": [129, 72, 99, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 268.447, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -4.244079999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 38, 75, 86, 43, 1, 0, 70, 79, 75, 99, 105, 65, 60, 0, 3, 1, 51], "stop_ok": true, "sum_ok": false, "wall": 269.083, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -8.04771, "bytes": [129, 72, 99, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 278.383, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -7.409689999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 38, 75, 84, 43, 1, 0, 70, 79, 75, 99, 105, 65, 60, 0, 2, 1, 49], "stop_ok": true, "sum_ok": true, "wall": 279.021, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -3.0767799999999994, "bytes": [129, 72, 99, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 283.353, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -2.4534199999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 38, 75, 86, 43, 1, 0, 70, 79, 74, 99, 105, 65, 60, 0, 2, 1, 50], "stop_ok": true, "sum_ok": true, "wall": 283.977, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -9.9995, "bytes": [90, 80, 95, 54, 20, 46], "stop_ok": false, "sum_ok": false, "wall": 289.604, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -6.305389999999999, "bytes": [129, 72, 99, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 293.298, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -5.66404, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 84, 41, 1, 0, 70, 78, 74, 99, 105, 65, 60, 0, 2, 1, 44], "stop_ok": true, "sum_ok": true, "wall": 293.94, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -1.3344999999999985, "bytes": [129, 72, 99, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 298.269, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -0.6982599999999994, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 84, 43, 65, 0, 70, 78, 74, 99, 105], "stop_ok": true, "sum_ok": false, "wall": 298.905, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -9.46165, "bytes": [129, 72, 99, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 303.245, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -8.82665, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 38, 75, 86, 42, 1, 0, 70, 110, 74, 99, 109, 65, 60, 0, 2, 1, 52], "stop_ok": true, "sum_ok": false, "wall": 303.88, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -4.49079, "bytes": [129, 72, 98, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 165], "stop_ok": true, "sum_ok": true, "wall": 308.216, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -3.8520499999999993, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 38, 75, 86, 43, 1, 0, 70, 78, 74, 98, 109, 65, 60, 0, 2, 1, 52], "stop_ok": true, "sum_ok": true, "wall": 308.855, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -7.645989999999999, "bytes": [129, 72, 98, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 165], "stop_ok": true, "sum_ok": true, "wall": 318.16, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -7.00718, "bytes": [40, 116, 0, 0, 0, 0, 132, 0, 52, 38, 75, 86, 42, 1, 0, 70, 78, 74, 98, 109, 65, 59, 0, 2, 1, 50], "stop_ok": true, "sum_ok": false, "wall": 318.799, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -2.6749199999999993, "bytes": [129, 72, 98, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 165], "stop_ok": true, "sum_ok": true, "wall": 323.131, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -2.0351099999999995, "bytes": [40, 52, 16, 0, 0, 0, 132, 0, 52, 38, 75, 88, 42, 1, 0, 70, 78, 74, 98, 109, 65, 60, 0, 2, 1, 61], "stop_ok": true, "sum_ok": false, "wall": 323.771, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -10.0, "bytes": [76, 14, 136, 50, 90, 99, 175, 1, 16, 70, 78, 74, 98, 109, 65, 59, 0, 2, 1, 53], "stop_ok": false, "sum_ok": false, "wall": 328.911, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -5.83852, "bytes": [129, 72, 98, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 165], "stop_ok": true, "sum_ok": true, "wall": 333.072, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -5.20374, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 38, 75, 88, 40, 1, 0, 198, 79, 202, 226, 109, 65, 59, 0, 2, 1, 115], "stop_ok": true, "sum_ok": false, "wall": 333.707, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -0.8674199999999992, "bytes": [129, 72, 98, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 165], "stop_ok": true, "sum_ok": true, "wall": 338.044, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -0.23309999999999853, "bytes": [40, 52, 0, 0, 0, 0], "stop_ok": true, "sum_ok": false, "wall": 338.678, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -9.03801, "bytes": [129, 72, 98, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 165], "stop_ok": true, "sum_ok": true, "wall": 343.01, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -8.40205, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 38, 75, 88, 59, 17, 0, 70, 79, 74, 98, 109, 65, 59, 0, 2, 1, 54], "stop_ok": true, "sum_ok": false, "wall": 343.646, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -4.067189999999999, "bytes": [129, 72, 98, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 165], "stop_ok": true, "sum_ok": true, "wall": 347.98, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -3.4300099999999993, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 38, 75, 88, 42, 1, 0, 70, 79, 74, 98, 109, 65, 59, 0, 2, 1, 53], "stop_ok": true, "sum_ok": true, "wall": 348.618, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -7.223929999999999, "bytes": [129, 72, 98, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 165], "stop_ok": true, "sum_ok": true, "wall": 357.921, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -6.58447, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 38, 75, 86, 43, 17, 0, 70, 79, 74, 98, 109, 65, 59, 0, 2, 1, 52], "stop_ok": true, "sum_ok": false, "wall": 358.56, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -2.253119999999999, "bytes": [129, 72, 98, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 165], "stop_ok": true, "sum_ok": true, "wall": 362.892, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -1.6175999999999995, "bytes": [40, 52, 0, 0, 0, 0, 148, 16, 52, 38, 75, 86, 58, 1, 0, 70, 79, 74, 98, 109, 65, 59, 0, 2, 1, 51], "stop_ok": true, "sum_ok": false, "wall": 363.527, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -10.0, "bytes": [35, 0, 2, 165], "stop_ok": true, "sum_ok": false, "wall": 368.242, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -9.73733, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 38, 75, 86, 42, 1, 0, 198, 79, 74, 226, 237, 65, 59, 0, 2, 1, 51], "stop_ok": true, "sum_ok": false, "wall": 368.504, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -5.4019699999999995, "bytes": [129, 72, 98, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 165], "stop_ok": true, "sum_ok": true, "wall": 372.84, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -4.7669299999999994, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 116, 38, 75, 86, 47, 1, 0, 70, 79, 74, 98, 109, 67, 59, 0, 2, 1, 54], "stop_ok": true, "sum_ok": false, "wall": 373.475, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -0.4309799999999999, "bytes": [129, 72, 98, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35], "stop_ok": true, "sum_ok": false, "wall": 377.811, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -8.5588, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 382.781, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -7.92148, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 86, 43, 1, 0, 70, 79, 74, 98, 109, 65, 59, 0, 2, 1, 51], "stop_ok": true, "sum_ok": true, "wall": 383.418, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -3.5879699999999994, "bytes": [129, 72, 98, 74, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 165], "stop_ok": true, "sum_ok": true, "wall": 387.752, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -2.954719999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 86, 42, 1, 0, 70, 79, 74, 98, 109, 65, 59, 0, 2, 1, 50], "stop_ok": true, "sum_ok": true, "wall": 388.385, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -6.75388, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 397.695, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -6.1189, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 86, 42, 1, 0, 86, 79, 74, 98, 114, 81, 59, 0, 2, 1, 55], "stop_ok": true, "sum_ok": false, "wall": 398.33, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -1.783059999999999, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 402.666, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -1.14635, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 86, 43, 1, 0, 70, 79, 74, 98, 114, 65, 59, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 403.303, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -9.91595, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 407.634, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -9.27867, "bytes": [40, 52, 0, 64, 0, 0, 132, 64, 52, 37, 75, 84, 106, 1, 0, 70, 78, 74, 98, 114, 65, 59, 0, 2, 1, 52], "stop_ok": true, "sum_ok": false, "wall": 408.271, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -4.94497, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 412.605, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -4.3065, "bytes": [40, 52, 0, 0, 0, 0, 132, 16, 52, 37, 75, 84, 43, 1, 16, 86, 94, 74, 114, 114, 65, 59, 0, 2, 1, 53], "stop_ok": true, "sum_ok": false, "wall": 413.243, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -8.08349, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 422.545, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -7.4468499999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 212, 43, 1, 128, 198, 78, 74, 98, 114, 65, 59, 0, 2, 1, 53], "stop_ok": true, "sum_ok": false, "wall": 423.182, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -3.11243, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 427.517, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -2.4762899999999997, "bytes": [104, 54, 0, 0, 0, 2, 132, 0, 52, 37, 75, 84, 43, 1, 0, 70, 78, 74, 98, 114, 65, 60, 0, 34, 1, 54], "stop_ok": true, "sum_ok": false, "wall": 428.153, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -9.99988, "bytes": [41, 44, 174, 20, 2, 2, 1, 54], "stop_ok": false, "sum_ok": false, "wall": 433.706, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -6.24582, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 437.46, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -5.609, "bytes": [40, 52, 0, 0, 0, 0, 132, 128, 180, 37, 203, 212, 42, 1, 0, 70, 78, 73, 98, 114, 65, 60, 0, 2, 1, 52], "stop_ok": true, "sum_ok": true, "wall": 438.097, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -1.2746999999999993, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 442.431, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -0.6421399999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 84, 43, 1, 0, 70, 78, 74, 98], "stop_ok": true, "sum_ok": false, "wall": 443.064, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -9.4054, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 447.399, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -8.77143, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 84, 42, 1, 0, 69, 94, 89, 98, 114, 65, 60, 0, 2, 1, 51], "stop_ok": true, "sum_ok": false, "wall": 448.033, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -4.4345799999999995, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 452.37, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -3.7986999999999993, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 84, 42, 1, 0, 69, 78, 73, 98, 114, 193, 59, 0, 2, 1, 50], "stop_ok": true, "sum_ok": false, "wall": 453.006, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -2.5937399999999995, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 467.293, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -1.9593899999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 84, 43, 1, 0, 69, 78, 74, 98, 114, 65, 60, 0, 2, 1, 53], "stop_ok": true, "sum_ok": true, "wall": 467.927, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -9.9853, "bytes": [44, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 84, 42, 1, 0, 69, 78, 73, 98, 114, 65, 60, 0, 66, 3, 51], "stop_ok": true, "sum_ok": false, "wall": 472.886, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -5.649909999999999, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 477.221, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -5.012899999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 91, 84, 43, 1, 0, 85, 78, 73, 98, 114, 81, 60, 0, 2, 1, 52], "stop_ok": true, "sum_ok": false, "wall": 477.858, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -0.6791799999999988, "bytes": [129, 72, 98, 73, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 164], "stop_ok": true, "sum_ok": true, "wall": 482.192, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -8.76942, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 487.168, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -8.1299, "bytes": [40, 52, 2, 0, 0, 0, 132, 0, 52, 37, 75, 82, 44, 1, 0, 69, 77, 73, 98, 119, 63, 60, 0, 2, 1, 53], "stop_ok": true, "sum_ok": false, "wall": 487.807, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -3.7983699999999994, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 492.139, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -3.1625799999999993, "bytes": [40, 52, 0, 2, 0, 0, 132, 0, 52, 37, 75, 82, 42, 1, 1, 69, 77, 73, 99, 119, 63, 60, 0, 2, 1, 51], "stop_ok": true, "sum_ok": false, "wall": 492.775, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -6.90933, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 502.084, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -6.27012, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 210, 43, 1, 0, 69, 77, 73, 98, 119, 63, 60, 0, 2, 1, 52], "stop_ok": true, "sum_ok": false, "wall": 502.724, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -1.9384800000000002, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 507.055, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -1.3022599999999986, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 203, 82, 43, 1, 0, 69, 77, 73, 98, 119, 63, 59, 0, 2, 1, 51], "stop_ok": true, "sum_ok": false, "wall": 507.691, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -10.0, "bytes": [74, 33, 9, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": false, "sum_ok": false, "wall": 512.064, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -9.40631, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 84, 43, 1, 0, 69, 77, 73, 98, 119, 63, 60, 0, 2, 1, 54], "stop_ok": true, "sum_ok": true, "wall": 512.658, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -5.072979999999999, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 516.992, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -4.4352599999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 82, 43, 1, 0, 69, 77, 73, 98, 119, 63, 60, 0, 18, 17, 52], "stop_ok": true, "sum_ok": false, "wall": 517.629, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -0.10208999999999868, "bytes": [129, 72, 98], "stop_ok": true, "sum_ok": false, "wall": 521.962, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -8.19791, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 526.938, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -7.5605899999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 84, 42, 1, 0, 69, 77, 73, 98, 119, 63, 60, 0, 2, 1, 53], "stop_ok": true, "sum_ok": true, "wall": 527.576, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -3.2270699999999994, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 531.909, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -2.5884199999999993, "bytes": [40, 180, 0, 0, 0, 0, 132, 0, 52, 37, 75, 84, 42, 1, 0, 69, 77, 72, 98, 119, 127, 123, 0, 2, 65, 115], "stop_ok": true, "sum_ok": true, "wall": 532.548, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -9.9863, "bytes": [218, 2, 18, 10, 170, 254], "stop_ok": false, "sum_ok": false, "wall": 538.204, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -6.34451, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 541.845, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -5.70756, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 84, 43, 33, 0, 69, 78, 72, 98, 119, 63, 60, 0, 2, 1, 54], "stop_ok": true, "sum_ok": false, "wall": 542.482, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -1.37364, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 546.816, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -0.7349499999999995, "bytes": [56, 52, 0, 0, 0, 16, 132, 0, 52, 37, 75, 84, 41, 1, 0, 69, 78, 73, 98, 119, 63], "stop_ok": true, "sum_ok": false, "wall": 547.455, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -9.46069, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 551.786, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -8.82473, "bytes": [56, 52, 16, 16, 16, 0, 132, 0, 52, 37, 75, 84, 42, 1, 0, 69, 78, 72, 98, 119, 63, 60, 0, 2, 1, 53], "stop_ok": true, "sum_ok": false, "wall": 552.422, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -4.48992, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 556.757, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -3.8536799999999998, "bytes": [40, 52, 0, 0, 8, 0, 140, 0, 52, 37, 75, 84, 43, 1, 0, 69, 78, 73, 98, 119, 63, 60, 0, 2, 1, 55], "stop_ok": true, "sum_ok": false, "wall": 557.393, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -7.6122499999999995, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 566.703, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -6.97802, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 82, 41, 1, 0, 69, 78, 72, 98, 119, 63, 124, 0, 2, 1, 50], "stop_ok": true, "sum_ok": false, "wall": 567.338, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -2.64138, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 571.674, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "rep", "t": -2.0052199999999996, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 114, 42, 1, 0, 69, 78, 72, 98, 119, 63, 60, 0, 2, 1, 50], "stop_ok": true, "sum_ok": false, "wall": 572.31, "note": "running, settings unchanged (61F max fan super)"}
+{"kind": "req", "t": -9.10716, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 591.557, "note": "experiment"}
+{"kind": "rep", "t": -8.47459, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 42, 1, 0, 69, 78, 72, 98, 123, 63, 59, 0, 2, 1, 53], "stop_ok": true, "sum_ok": true, "wall": 592.189, "note": "experiment"}
+{"kind": "req", "t": -4.136209999999999, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 596.528, "note": "experiment"}
+{"kind": "rep", "t": -3.501569999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 42, 1, 0, 69, 78, 72, 98, 123, 63, 60, 0, 2, 1, 54], "stop_ok": true, "sum_ok": true, "wall": 597.162, "note": "experiment"}
+{"kind": "req", "t": -7.279999999999999, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 606.466, "note": "experiment"}
+{"kind": "rep", "t": -6.6462699999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 43, 1, 0, 69, 77, 72, 98, 123, 63, 60, 0, 2, 1, 54], "stop_ok": true, "sum_ok": true, "wall": 607.099, "note": "experiment"}
+{"kind": "req", "t": -2.3091999999999997, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 611.436, "note": "experiment"}
+{"kind": "rep", "t": -1.6731299999999987, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 42, 1, 0, 69, 77, 72, 98, 123, 63, 60, 0, 2, 1, 53], "stop_ok": true, "sum_ok": true, "wall": 612.072, "note": "experiment"}
+{"kind": "req", "t": -10.0, "bytes": [2, 2, 163], "stop_ok": false, "sum_ok": false, "wall": 616.816, "note": "experiment"}
+{"kind": "rep", "t": -9.76893, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 43, 1, 0, 69, 77, 72, 98, 123, 63, 60, 0, 2, 1, 54], "stop_ok": true, "sum_ok": true, "wall": 617.047, "note": "experiment"}
+{"kind": "req", "t": -5.43711, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 621.379, "note": "experiment"}
+{"kind": "rep", "t": -4.801049999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 42, 1, 0, 69, 77, 72, 98, 123, 63, 60, 0, 2, 1, 53], "stop_ok": true, "sum_ok": true, "wall": 622.015, "note": "experiment"}
+{"kind": "req", "t": -0.46619999999999884, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0], "stop_ok": true, "sum_ok": false, "wall": 626.35, "note": "experiment"}
+{"kind": "req", "t": -8.58241, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 631.329, "note": "experiment"}
+{"kind": "rep", "t": -7.94342, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 84, 43, 1, 0, 69, 77, 72, 98, 123, 63, 60, 0, 2, 1, 57], "stop_ok": true, "sum_ok": true, "wall": 631.968, "note": "experiment"}
+{"kind": "req", "t": -3.6116599999999996, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 636.299, "note": "experiment"}
+{"kind": "rep", "t": -2.975199999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 82, 42, 1, 0, 69, 77, 72, 98, 123, 63, 60, 0, 2, 1, 54], "stop_ok": true, "sum_ok": true, "wall": 636.936, "note": "experiment"}
+{"kind": "req", "t": -6.73742, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 646.232, "note": "experiment"}
+{"kind": "rep", "t": -6.1019499999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 43, 1, 0, 70, 78, 72, 98, 123, 63, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 646.867, "note": "experiment"}
+{"kind": "req", "t": -1.7666199999999996, "bytes": [129, 72, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 163], "stop_ok": true, "sum_ok": true, "wall": 651.203, "note": "experiment"}
+{"kind": "rep", "t": -1.1278799999999993, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 37, 75, 82, 41, 1, 0, 70, 78, 72, 98, 123, 63, 60, 0, 2, 1, 55], "stop_ok": true, "sum_ok": true, "wall": 651.841, "note": "experiment"}
+{"kind": "req", "t": -9.8393, "bytes": [129, 72, 98, 72, 130, 161, 8, 0, 0, 0, 0, 0, 35, 0, 1, 194], "stop_ok": true, "sum_ok": true, "wall": 656.179, "note": "experiment"}
+{"kind": "rep", "t": -9.20577, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 43, 1, 0, 70, 78, 72, 98, 123, 63, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 656.812, "note": "experiment"}
+{"kind": "req", "t": -4.868589999999999, "bytes": [129, 88, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 179], "stop_ok": true, "sum_ok": true, "wall": 661.149, "note": "experiment"}
+{"kind": "rep", "t": -4.231039999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 69, 82, 43, 1, 0, 70, 78, 72, 98, 123, 63, 59, 0, 2, 1, 49], "stop_ok": true, "sum_ok": true, "wall": 661.787, "note": "experiment"}
+{"kind": "req", "t": -8.00485, "bytes": [129, 88, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 179], "stop_ok": true, "sum_ok": true, "wall": 671.086, "note": "experiment"}
+{"kind": "rep", "t": -7.36802, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 69, 82, 42, 1, 0, 70, 78, 72, 98, 127, 65, 59, 0, 2, 1, 54], "stop_ok": true, "sum_ok": true, "wall": 671.723, "note": "experiment"}
+{"kind": "req", "t": -3.0339099999999997, "bytes": [129, 88, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 179], "stop_ok": true, "sum_ok": true, "wall": 676.057, "note": "experiment"}
+{"kind": "rep", "t": -2.394709999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 69, 82, 42, 1, 0, 69, 78, 72, 98, 127, 65, 60, 0, 2, 1, 54], "stop_ok": true, "sum_ok": true, "wall": 676.696, "note": "experiment"}
+{"kind": "rep", "t": -10.0, "bytes": [84, 229, 117, 37, 253, 5, 241, 0, 2, 1, 60], "stop_ok": false, "sum_ok": false, "wall": 682.149, "note": "experiment"}
+{"kind": "req", "t": -6.14586, "bytes": [129, 76, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 167], "stop_ok": true, "sum_ok": true, "wall": 686.003, "note": "experiment"}
+{"kind": "rep", "t": -5.51342, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 42, 1, 0, 69, 78, 71, 98, 127, 65, 60, 0, 2, 1, 59], "stop_ok": true, "sum_ok": true, "wall": 686.636, "note": "experiment"}
+{"kind": "req", "t": -1.1751199999999997, "bytes": [129, 76, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 167], "stop_ok": true, "sum_ok": true, "wall": 690.974, "note": "experiment"}
+{"kind": "rep", "t": -0.5397999999999996, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 42, 1, 0, 69], "stop_ok": true, "sum_ok": false, "wall": 691.609, "note": "experiment"}
+{"kind": "req", "t": -9.28124, "bytes": [129, 76, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 167], "stop_ok": true, "sum_ok": true, "wall": 695.943, "note": "experiment"}
+{"kind": "rep", "t": -8.64837, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 42, 1, 0, 69, 78, 71, 98, 127, 65, 60, 0, 2, 1, 59], "stop_ok": true, "sum_ok": true, "wall": 696.576, "note": "experiment"}
+{"kind": "req", "t": -4.31044, "bytes": [129, 76, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 167], "stop_ok": true, "sum_ok": true, "wall": 700.914, "note": "experiment"}
+{"kind": "rep", "t": -3.6749399999999994, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 42, 1, 0, 69, 78, 71, 98, 127, 65, 60, 0, 2, 1, 59], "stop_ok": true, "sum_ok": true, "wall": 701.549, "note": "experiment"}
+{"kind": "req", "t": -7.54765, "bytes": [129, 76, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 167], "stop_ok": true, "sum_ok": true, "wall": 710.86, "note": "experiment"}
+{"kind": "rep", "t": -6.91147, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 43, 1, 0, 69, 78, 71, 98, 127, 65, 60, 0, 2, 1, 60], "stop_ok": true, "sum_ok": true, "wall": 711.496, "note": "experiment"}
+{"kind": "req", "t": -2.576789999999999, "bytes": [129, 76, 98, 72, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 167], "stop_ok": true, "sum_ok": true, "wall": 715.831, "note": "experiment"}
+{"kind": "rep", "t": -1.9447799999999997, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 43, 1, 0, 69, 78, 71, 98, 127, 65, 60, 0, 2, 1, 60], "stop_ok": true, "sum_ok": true, "wall": 716.463, "note": "experiment"}
+{"kind": "rep", "t": -9.99641, "bytes": [2, 0, 0, 0, 132, 0, 52, 36, 75, 82, 43, 1, 0, 69, 78, 71, 98, 127, 65, 60, 0, 2, 1, 60], "stop_ok": false, "sum_ok": false, "wall": 721.494, "note": "experiment"}
+{"kind": "req", "t": -5.7171899999999996, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 725.773, "note": "experiment"}
+{"kind": "rep", "t": -5.084689999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 82, 41, 1, 0, 69, 77, 71, 98, 127, 65, 60, 0, 2, 1, 57], "stop_ok": true, "sum_ok": true, "wall": 726.406, "note": "experiment"}
+{"kind": "req", "t": -0.74634, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 730.744, "note": "experiment"}
+{"kind": "rep", "t": -0.110339999999999, "bytes": [40, 52, 0], "stop_ok": true, "sum_ok": false, "wall": 731.38, "note": "experiment"}
+{"kind": "req", "t": -8.87758, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 735.706, "note": "experiment"}
+{"kind": "rep", "t": -8.23918, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 80, 44, 1, 0, 69, 77, 71, 98, 127, 65, 59, 0, 2, 1, 57], "stop_ok": true, "sum_ok": true, "wall": 736.345, "note": "experiment"}
+{"kind": "req", "t": -3.9068699999999996, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 740.677, "note": "experiment"}
+{"kind": "rep", "t": -3.270459999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 80, 42, 1, 0, 69, 77, 71, 98, 127, 65, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 741.314, "note": "experiment"}
+{"kind": "req", "t": -7.01627, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 750.627, "note": "experiment"}
+{"kind": "rep", "t": -6.37946, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 80, 42, 1, 0, 69, 77, 71, 98, 127, 65, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 751.264, "note": "experiment"}
+{"kind": "req", "t": -2.045419999999999, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 755.598, "note": "experiment"}
+{"kind": "rep", "t": -1.4124199999999991, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 80, 41, 1, 0, 69, 77, 71, 98, 131, 63, 59, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 756.231, "note": "experiment"}
+{"kind": "req", "t": -10.0, "bytes": [96, 8, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": false, "sum_ok": false, "wall": 760.734, "note": "experiment"}
+{"kind": "rep", "t": -9.53012, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 80, 43, 1, 0, 69, 77, 71, 98, 131, 63, 60, 0, 2, 1, 59], "stop_ok": true, "sum_ok": true, "wall": 761.204, "note": "experiment"}
+{"kind": "req", "t": -5.19532, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 765.539, "note": "experiment"}
+{"kind": "rep", "t": -4.55556, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 80, 42, 1, 0, 69, 77, 71, 98, 131, 63, 60, 0, 2, 1, 58], "stop_ok": true, "sum_ok": true, "wall": 766.179, "note": "experiment"}
+{"kind": "req", "t": -0.22466000000000008, "bytes": [129, 76, 98, 71, 130, 129], "stop_ok": true, "sum_ok": false, "wall": 770.51, "note": "experiment"}
+{"kind": "req", "t": -8.33283, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 775.476, "note": "experiment"}
+{"kind": "rep", "t": -7.69705, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 80, 43, 1, 0, 69, 77, 71, 98, 131, 63, 59, 0, 2, 1, 58], "stop_ok": true, "sum_ok": true, "wall": 776.111, "note": "experiment"}
+{"kind": "req", "t": -3.361929999999999, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 780.447, "note": "experiment"}
+{"kind": "rep", "t": -2.7226299999999997, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 80, 42, 1, 0, 69, 77, 71, 98, 131, 63, 60, 0, 2, 1, 58], "stop_ok": true, "sum_ok": true, "wall": 781.086, "note": "experiment"}
+{"kind": "req", "t": -6.48112, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 790.389, "note": "experiment"}
+{"kind": "rep", "t": -5.8488, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 80, 43, 1, 0, 69, 77, 71, 98, 131, 63, 59, 0, 2, 1, 58], "stop_ok": true, "sum_ok": true, "wall": 791.022, "note": "experiment"}
+{"kind": "req", "t": -1.5104099999999985, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 795.36, "note": "experiment"}
+{"kind": "rep", "t": -0.874649999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 36, 75, 80, 43, 1, 0, 69, 77, 71, 98, 131, 63, 59, 0, 2, 1, 58], "stop_ok": true, "sum_ok": true, "wall": 795.996, "note": "experiment"}
+{"kind": "req", "t": -9.58864, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 800.334, "note": "experiment"}
+{"kind": "rep", "t": -8.950289999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 42, 1, 0, 69, 77, 71, 98, 131, 63, 60, 0, 2, 1, 57], "stop_ok": true, "sum_ok": true, "wall": 800.973, "note": "experiment"}
+{"kind": "req", "t": -4.617819999999999, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 805.305, "note": "experiment"}
+{"kind": "rep", "t": -3.9783299999999997, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 42, 1, 0, 69, 77, 70, 98, 131, 63, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 805.945, "note": "experiment"}
+{"kind": "req", "t": -7.7268, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 815.251, "note": "experiment"}
+{"kind": "rep", "t": -7.08933, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 69, 77, 70, 98, 131, 63, 60, 0, 2, 1, 57], "stop_ok": true, "sum_ok": true, "wall": 815.888, "note": "experiment"}
+{"kind": "req", "t": -2.755959999999999, "bytes": [129, 76, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 166], "stop_ok": true, "sum_ok": true, "wall": 820.221, "note": "experiment"}
+{"kind": "rep", "t": -2.1207499999999992, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 42, 1, 0, 69, 77, 70, 98, 131, 63, 59, 0, 2, 1, 55], "stop_ok": true, "sum_ok": true, "wall": 820.857, "note": "experiment"}
+{"kind": "rep", "t": -10.0, "bytes": [0, 52, 35, 75, 80, 42, 1, 0, 69, 77, 70, 98, 131, 63, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": false, "wall": 826.043, "note": "experiment"}
+{"kind": "req", "t": -5.89063, "bytes": [129, 80, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 830.152, "note": "experiment"}
+{"kind": "rep", "t": -5.25394, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 69, 77, 70, 98, 131, 63, 60, 0, 2, 1, 57], "stop_ok": true, "sum_ok": true, "wall": 830.789, "note": "experiment"}
+{"kind": "req", "t": -0.9199199999999994, "bytes": [129, 82, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 172], "stop_ok": true, "sum_ok": true, "wall": 835.123, "note": "experiment"}
+{"kind": "rep", "t": -0.2822899999999997, "bytes": [40, 52, 0, 0, 0, 0, 132, 0], "stop_ok": true, "sum_ok": false, "wall": 835.76, "note": "experiment"}
+{"kind": "req", "t": -9.010299999999999, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 840.099, "note": "experiment"}
+{"kind": "rep", "t": -8.372869999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 69, 77, 70, 98, 131, 63, 59, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 840.737, "note": "experiment"}
+{"kind": "req", "t": -4.03949, "bytes": [129, 82, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 172], "stop_ok": true, "sum_ok": true, "wall": 845.07, "note": "experiment"}
+{"kind": "rep", "t": -3.3989599999999998, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 77, 70, 98, 134, 63, 60, 0, 2, 1, 57], "stop_ok": true, "sum_ok": true, "wall": 845.711, "note": "experiment"}
+{"kind": "req", "t": -7.15743, "bytes": [129, 88, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 178], "stop_ok": true, "sum_ok": true, "wall": 855.012, "note": "experiment"}
+{"kind": "rep", "t": -6.52224, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 69, 78, 42, 1, 0, 69, 77, 70, 98, 134, 63, 60, 0, 2, 1, 51], "stop_ok": true, "sum_ok": true, "wall": 855.647, "note": "experiment"}
+{"kind": "req", "t": -2.186539999999999, "bytes": [129, 88, 98, 71, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 178], "stop_ok": true, "sum_ok": true, "wall": 859.983, "note": "experiment"}
+{"kind": "rep", "t": -1.5478199999999998, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 69, 78, 44, 1, 0, 69, 77, 70, 98, 134, 63, 60, 0, 2, 1, 53], "stop_ok": true, "sum_ok": true, "wall": 860.622, "note": "experiment"}
+{"kind": "req", "t": -10.0, "bytes": [0, 0, 0, 35, 0, 3, 184], "stop_ok": true, "sum_ok": false, "wall": 865.24, "note": "experiment"}
+{"kind": "rep", "t": -9.64748, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 59, 78, 43, 1, 0, 69, 77, 70, 98, 134, 63, 60, 0, 2, 1, 42], "stop_ok": true, "sum_ok": true, "wall": 865.592, "note": "experiment"}
+{"kind": "req", "t": -5.313969999999999, "bytes": [129, 92, 98, 70, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 184], "stop_ok": true, "sum_ok": true, "wall": 869.926, "note": "experiment"}
+{"kind": "rep", "t": -4.67394, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 59, 78, 42, 1, 0, 69, 77, 70, 98, 134, 63, 60, 0, 2, 1, 41], "stop_ok": true, "sum_ok": true, "wall": 870.566, "note": "experiment"}
+{"kind": "req", "t": -0.3433199999999985, "bytes": [129, 92, 98, 70, 130, 131, 8, 0, 0, 0], "stop_ok": true, "sum_ok": false, "wall": 874.896, "note": "experiment"}
+{"kind": "req", "t": -8.46606, "bytes": [129, 92, 98, 70, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 184], "stop_ok": true, "sum_ok": true, "wall": 879.863, "note": "experiment"}
+{"kind": "rep", "t": -7.831429999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 59, 80, 41, 1, 0, 69, 77, 70, 98, 134, 63, 60, 0, 2, 1, 42], "stop_ok": true, "sum_ok": true, "wall": 880.497, "note": "experiment"}
+{"kind": "req", "t": -3.49524, "bytes": [129, 92, 98, 70, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 184], "stop_ok": true, "sum_ok": true, "wall": 884.834, "note": "experiment"}
+{"kind": "rep", "t": -2.8583499999999997, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 59, 80, 44, 1, 0, 69, 77, 70, 98, 134, 63, 59, 0, 2, 1, 44], "stop_ok": true, "sum_ok": true, "wall": 885.471, "note": "experiment"}
+{"kind": "req", "t": -6.59714, "bytes": [129, 92, 98, 70, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 184], "stop_ok": true, "sum_ok": true, "wall": 894.779, "note": "experiment"}
+{"kind": "rep", "t": -5.95906, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 59, 80, 43, 1, 0, 69, 77, 69, 98, 134, 63, 60, 0, 2, 1, 43], "stop_ok": true, "sum_ok": true, "wall": 895.417, "note": "experiment"}
+{"kind": "req", "t": -1.6265, "bytes": [129, 92, 98, 70, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 184], "stop_ok": true, "sum_ok": true, "wall": 899.75, "note": "experiment"}
+{"kind": "rep", "t": -0.9892399999999988, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 59, 78, 42, 1, 0, 69, 77, 69, 98, 134, 63, 60, 0, 2, 1, 40], "stop_ok": true, "sum_ok": true, "wall": 900.387, "note": "experiment"}
+{"kind": "req", "t": -9.71933, "bytes": [129, 92, 98, 70, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 184], "stop_ok": true, "sum_ok": true, "wall": 904.722, "note": "experiment"}
+{"kind": "rep", "t": -9.08007, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 69, 78, 107, 1, 0, 69, 77, 69, 98, 134, 63, 59, 0, 2, 1, 50], "stop_ok": true, "sum_ok": false, "wall": 905.361, "note": "experiment"}
+{"kind": "req", "t": -4.748449999999999, "bytes": [129, 92, 98, 69, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 183], "stop_ok": true, "sum_ok": true, "wall": 909.693, "note": "experiment"}
+{"kind": "rep", "t": -4.112679999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 69, 78, 41, 1, 0, 69, 77, 69, 98, 134, 63, 60, 0, 2, 1, 49], "stop_ok": true, "sum_ok": true, "wall": 910.329, "note": "experiment"}
+{"kind": "req", "t": -7.8677399999999995, "bytes": [129, 92, 98, 69, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 183], "stop_ok": true, "sum_ok": true, "wall": 919.636, "note": "experiment"}
+{"kind": "rep", "t": -7.22798, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 69, 78, 42, 1, 0, 69, 77, 69, 98, 134, 63, 60, 0, 2, 1, 50], "stop_ok": true, "sum_ok": true, "wall": 920.276, "note": "experiment"}
+{"kind": "req", "t": -2.8969899999999997, "bytes": [129, 92, 98, 69, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 183], "stop_ok": true, "sum_ok": true, "wall": 924.607, "note": "experiment"}
+{"kind": "rep", "t": -2.2603999999999997, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 69, 78, 42, 1, 0, 69, 77, 69, 98, 134, 63, 60, 0, 2, 1, 50], "stop_ok": true, "sum_ok": true, "wall": 925.244, "note": "experiment"}
+{"kind": "rep", "t": -9.99998, "bytes": [57, 169, 1, 0, 69, 77, 69, 98, 134, 63, 60, 0, 2, 1, 50], "stop_ok": false, "sum_ok": false, "wall": 930.57, "note": "experiment"}
+{"kind": "req", "t": -6.025029999999999, "bytes": [129, 92, 98, 69, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 183], "stop_ok": true, "sum_ok": true, "wall": 934.545, "note": "experiment"}
+{"kind": "rep", "t": -5.3878699999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 69, 78, 43, 1, 0, 69, 77, 69, 98, 134, 63, 59, 0, 2, 1, 50], "stop_ok": true, "sum_ok": true, "wall": 935.182, "note": "experiment"}
+{"kind": "req", "t": -1.0544199999999986, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 939.516, "note": "experiment"}
+{"kind": "rep", "t": -0.4194699999999987, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78], "stop_ok": true, "sum_ok": false, "wall": 940.151, "note": "experiment"}
+{"kind": "req", "t": -9.149329999999999, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 944.488, "note": "experiment"}
+{"kind": "rep", "t": -8.51167, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 69, 98, 137, 63, 59, 0, 2, 1, 58], "stop_ok": true, "sum_ok": true, "wall": 945.126, "note": "experiment"}
+{"kind": "req", "t": -4.17843, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 949.459, "note": "experiment"}
+{"kind": "rep", "t": -3.5428599999999992, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 77, 68, 98, 137, 63, 59, 0, 2, 1, 57], "stop_ok": true, "sum_ok": true, "wall": 950.095, "note": "experiment"}
+{"kind": "req", "t": -7.31545, "bytes": [129, 82, 97, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 169], "stop_ok": true, "sum_ok": true, "wall": 959.397, "note": "experiment"}
+{"kind": "rep", "t": -6.67966, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 77, 68, 97, 137, 63, 59, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 960.033, "note": "experiment"}
+{"kind": "req", "t": -2.3447899999999997, "bytes": [129, 82, 97, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 169], "stop_ok": true, "sum_ok": true, "wall": 964.368, "note": "experiment"}
+{"kind": "rep", "t": -1.7110599999999998, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 42, 1, 0, 69, 77, 68, 97, 137, 63, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 965.001, "note": "experiment"}
+{"kind": "req", "t": -10.0, "bytes": [2, 169], "stop_ok": true, "sum_ok": false, "wall": 969.794, "note": "experiment"}
+{"kind": "rep", "t": -9.82261, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 42, 1, 0, 69, 77, 68, 97, 137, 63, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 969.972, "note": "experiment"}
+{"kind": "req", "t": -5.48783, "bytes": [129, 82, 97, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 974.307, "note": "experiment"}
+{"kind": "rep", "t": -4.853829999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 68, 97, 137, 63, 59, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 974.941, "note": "experiment"}
+{"kind": "req", "t": -0.51708, "bytes": [129, 82, 97, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2], "stop_ok": true, "sum_ok": false, "wall": 979.277, "note": "experiment"}
+{"kind": "req", "t": -8.61068, "bytes": [129, 82, 97, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 984.249, "note": "experiment"}
+{"kind": "rep", "t": -7.9745, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 67, 97, 137, 63, 59, 0, 2, 1, 55], "stop_ok": true, "sum_ok": true, "wall": 984.885, "note": "experiment"}
+{"kind": "req", "t": -3.6400499999999996, "bytes": [129, 82, 97, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 989.22, "note": "experiment"}
+{"kind": "rep", "t": -3.005539999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 67, 97, 137, 63, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 989.854, "note": "experiment"}
+{"kind": "req", "t": -6.76343, "bytes": [129, 82, 97, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 999.165, "note": "experiment"}
+{"kind": "rep", "t": -6.12939, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 77, 67, 97, 137, 63, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 999.799, "note": "experiment"}
+{"kind": "req", "t": -1.7926899999999986, "bytes": [129, 82, 97, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1004.135, "note": "experiment"}
+{"kind": "rep", "t": -1.1563299999999987, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 67, 97, 137, 63, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 1004.772, "note": "experiment"}
+{"kind": "req", "t": -9.88334, "bytes": [129, 82, 97, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1009.107, "note": "experiment"}
+{"kind": "rep", "t": -9.24808, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 77, 67, 97, 137, 63, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 1009.743, "note": "experiment"}
+{"kind": "req", "t": -4.912669999999999, "bytes": [129, 82, 97, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1014.078, "note": "experiment"}
+{"kind": "rep", "t": -4.2743899999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 77, 67, 97, 137, 63, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 1014.716, "note": "experiment"}
+{"kind": "req", "t": -8.0141, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1024.02, "note": "experiment"}
+{"kind": "rep", "t": -7.3796, "bytes": [40, 116, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 77, 67, 98, 137, 63, 59, 0, 2, 1, 56], "stop_ok": true, "sum_ok": false, "wall": 1024.654, "note": "experiment"}
+{"kind": "req", "t": -3.043449999999999, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1028.99, "note": "experiment"}
+{"kind": "rep", "t": -2.4071999999999996, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 77, 67, 98, 139, 63, 60, 0, 2, 1, 60], "stop_ok": true, "sum_ok": true, "wall": 1029.627, "note": "experiment"}
+{"kind": "rep", "t": -9.99777, "bytes": [81, 83, 40, 172, 177, 226, 2, 2, 1, 58], "stop_ok": false, "sum_ok": false, "wall": 1035.105, "note": "experiment"}
+{"kind": "req", "t": -6.1705, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1038.932, "note": "experiment"}
+{"kind": "rep", "t": -5.53257, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 116, 34, 75, 78, 43, 1, 0, 69, 77, 67, 98, 139, 63, 60, 0, 2, 1, 59], "stop_ok": true, "sum_ok": false, "wall": 1039.57, "note": "experiment"}
+{"kind": "req", "t": -1.19965, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1043.903, "note": "experiment"}
+{"kind": "rep", "t": -0.5637499999999989, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 41, 1, 0, 69], "stop_ok": true, "sum_ok": false, "wall": 1044.539, "note": "experiment"}
+{"kind": "req", "t": -9.30343, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1048.872, "note": "experiment"}
+{"kind": "rep", "t": -8.66379, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 77, 67, 98, 139, 63, 59, 0, 2, 1, 59], "stop_ok": true, "sum_ok": true, "wall": 1049.511, "note": "experiment"}
+{"kind": "req", "t": -4.33282, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1053.842, "note": "experiment"}
+{"kind": "rep", "t": -3.6956799999999994, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 42, 1, 0, 69, 77, 67, 98, 139, 63, 60, 0, 2, 1, 61], "stop_ok": true, "sum_ok": true, "wall": 1054.479, "note": "experiment"}
+{"kind": "req", "t": -7.4486799999999995, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1063.781, "note": "experiment"}
+{"kind": "rep", "t": -6.810079999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 69, 77, 67, 98, 139, 63, 59, 0, 2, 1, 61], "stop_ok": true, "sum_ok": true, "wall": 1064.42, "note": "experiment"}
+{"kind": "req", "t": -2.477969999999999, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1068.752, "note": "experiment"}
+{"kind": "rep", "t": -1.8416899999999998, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 77, 67, 98, 139, 63, 59, 0, 2, 1, 59], "stop_ok": true, "sum_ok": true, "wall": 1069.388, "note": "experiment"}
+{"kind": "rep", "t": -9.91697, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 42, 1, 0, 69, 77, 67, 98, 139, 63, 59, 0, 2, 1, 60], "stop_ok": true, "sum_ok": true, "wall": 1074.363, "note": "experiment"}
+{"kind": "req", "t": -5.586069999999999, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1078.694, "note": "experiment"}
+{"kind": "rep", "t": -4.95071, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 77, 67, 98, 139, 63, 59, 0, 2, 1, 59], "stop_ok": true, "sum_ok": true, "wall": 1079.329, "note": "experiment"}
+{"kind": "req", "t": -0.6152499999999996, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1083.664, "note": "experiment"}
+{"kind": "req", "t": -8.7111, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1088.636, "note": "experiment"}
+{"kind": "rep", "t": -8.07535, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 77, 67, 98, 139, 63, 60, 0, 2, 1, 60], "stop_ok": true, "sum_ok": true, "wall": 1089.272, "note": "experiment"}
+{"kind": "req", "t": -3.7405399999999993, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1093.606, "note": "experiment"}
+{"kind": "rep", "t": -3.1041499999999997, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 77, 67, 98, 139, 63, 60, 0, 2, 1, 59], "stop_ok": true, "sum_ok": true, "wall": 1094.243, "note": "experiment"}
+{"kind": "req", "t": -6.863989999999999, "bytes": [129, 82, 98, 70, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1103.548, "note": "experiment"}
+{"kind": "rep", "t": -6.22677, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 77, 67, 98, 139, 63, 59, 0, 2, 1, 58], "stop_ok": true, "sum_ok": true, "wall": 1104.185, "note": "experiment"}
+{"kind": "req", "t": -1.8931899999999988, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1108.519, "note": "experiment"}
+{"kind": "rep", "t": -1.2580999999999989, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 44, 1, 0, 71, 77, 67, 98, 139, 63, 60, 0, 2, 1, 63], "stop_ok": true, "sum_ok": false, "wall": 1109.154, "note": "experiment"}
+{"kind": "req", "t": -9.9866, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1113.489, "note": "experiment"}
+{"kind": "rep", "t": -9.34857, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 77, 67, 98, 139, 63, 59, 0, 2, 1, 59], "stop_ok": true, "sum_ok": true, "wall": 1114.127, "note": "experiment"}
+{"kind": "req", "t": -5.015969999999999, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1118.46, "note": "experiment"}
+{"kind": "rep", "t": -4.380019999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 69, 77, 67, 98, 141, 63, 59, 0, 2, 1, 63], "stop_ok": true, "sum_ok": true, "wall": 1119.096, "note": "experiment"}
+{"kind": "req", "t": -8.13163, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1128.404, "note": "experiment"}
+{"kind": "rep", "t": -7.49438, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 77, 67, 98, 141, 63, 124, 0, 2, 1, 62], "stop_ok": true, "sum_ok": false, "wall": 1129.041, "note": "experiment"}
+{"kind": "req", "t": -3.1608199999999993, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1133.374, "note": "experiment"}
+{"kind": "rep", "t": -2.5276099999999992, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 77, 67, 98, 141, 63, 59, 0, 2, 3, 60], "stop_ok": false, "sum_ok": false, "wall": 1134.008, "note": "experiment"}
+{"kind": "req", "t": -8.18916, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1153.262, "note": "experiment2"}
+{"kind": "rep", "t": -7.55413, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 76, 42, 1, 0, 69, 77, 67, 98, 141, 63, 59, 0, 2, 1, 57], "stop_ok": true, "sum_ok": true, "wall": 1153.897, "note": "experiment2"}
+{"kind": "req", "t": -3.2185099999999993, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1158.233, "note": "experiment2"}
+{"kind": "rep", "t": -2.579369999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 77, 67, 98, 141, 63, 59, 0, 2, 1, 61], "stop_ok": true, "sum_ok": true, "wall": 1158.872, "note": "experiment2"}
+{"kind": "rep", "t": -10.0, "bytes": [226, 2, 2, 1, 58], "stop_ok": false, "sum_ok": false, "wall": 1164.511, "note": "experiment2"}
+{"kind": "req", "t": -6.33869, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1168.172, "note": "experiment2"}
+{"kind": "rep", "t": -5.702909999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 76, 43, 1, 0, 69, 77, 67, 98, 141, 63, 59, 0, 2, 1, 58], "stop_ok": true, "sum_ok": true, "wall": 1168.808, "note": "experiment2"}
+{"kind": "req", "t": -1.36787, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1173.143, "note": "experiment2"}
+{"kind": "rep", "t": -0.7300899999999988, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 42, 1, 0, 69, 77, 67, 98, 141, 63], "stop_ok": true, "sum_ok": false, "wall": 1173.781, "note": "experiment2"}
+{"kind": "req", "t": -9.46909, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1178.109, "note": "experiment2"}
+{"kind": "rep", "t": -8.83233, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 44, 1, 0, 69, 77, 67, 98, 141, 63, 60, 0, 2, 1, 62], "stop_ok": true, "sum_ok": true, "wall": 1178.745, "note": "experiment2"}
+{"kind": "req", "t": -4.49853, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1183.079, "note": "experiment2"}
+{"kind": "rep", "t": -3.86487, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 80, 42, 1, 0, 69, 77, 67, 98, 141, 63, 59, 0, 2, 1, 61], "stop_ok": true, "sum_ok": true, "wall": 1183.713, "note": "experiment2"}
+{"kind": "req", "t": -7.611929999999999, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1193.022, "note": "experiment2"}
+{"kind": "rep", "t": -6.97704, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 42, 1, 0, 69, 77, 67, 98, 141, 63, 59, 0, 2, 1, 59], "stop_ok": true, "sum_ok": true, "wall": 1193.657, "note": "experiment2"}
+{"kind": "req", "t": -2.641139999999999, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1197.993, "note": "experiment2"}
+{"kind": "rep", "t": -2.0027099999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 80, 44, 1, 0, 69, 77, 67, 98, 141, 63, 59, 0, 2, 1, 63], "stop_ok": true, "sum_ok": true, "wall": 1198.632, "note": "experiment2"}
+{"kind": "rep", "t": -10.0, "bytes": [128, 128, 128, 194, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 67, 98, 141, 63, 59, 0, 2, 1, 60], "stop_ok": false, "sum_ok": false, "wall": 1203.701, "note": "experiment2"}
+{"kind": "req", "t": -5.7679, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1207.933, "note": "experiment2"}
+{"kind": "rep", "t": -5.128469999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 42, 1, 0, 69, 77, 67, 98, 143, 63, 59, 0, 2, 1, 61], "stop_ok": true, "sum_ok": true, "wall": 1208.572, "note": "experiment2"}
+{"kind": "req", "t": -0.79725, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1212.903, "note": "experiment2"}
+{"kind": "rep", "t": -0.15981999999999985, "bytes": [40, 52, 0, 0], "stop_ok": true, "sum_ok": false, "wall": 1213.541, "note": "experiment2"}
+{"kind": "req", "t": -8.88334, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1217.873, "note": "experiment2"}
+{"kind": "rep", "t": -8.24811, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 67, 98, 143, 63, 59, 0, 2, 1, 62], "stop_ok": true, "sum_ok": true, "wall": 1218.508, "note": "experiment2"}
+{"kind": "req", "t": -3.9126899999999996, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1222.844, "note": "experiment2"}
+{"kind": "rep", "t": -3.2796899999999996, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 67, 98, 143, 63, 59, 0, 2, 1, 62], "stop_ok": true, "sum_ok": true, "wall": 1223.477, "note": "experiment2"}
+{"kind": "req", "t": -7.02086, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1232.791, "note": "experiment2"}
+{"kind": "rep", "t": -6.38707, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 67, 98, 143, 63, 59, 0, 2, 1, 62], "stop_ok": true, "sum_ok": true, "wall": 1233.425, "note": "experiment2"}
+{"kind": "req", "t": -2.0501699999999996, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1237.762, "note": "experiment2"}
+{"kind": "rep", "t": -1.4125599999999991, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 42, 1, 0, 69, 77, 67, 98, 143, 63, 59, 0, 2, 1, 61], "stop_ok": true, "sum_ok": true, "wall": 1238.4, "note": "experiment2"}
+{"kind": "req", "t": -10.0, "bytes": [176, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": false, "sum_ok": false, "wall": 1242.862, "note": "experiment2"}
+{"kind": "rep", "t": -9.49753, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 67, 98, 143, 63, 60, 0, 2, 1, 63], "stop_ok": true, "sum_ok": true, "wall": 1243.364, "note": "experiment2"}
+{"kind": "req", "t": -5.1629499999999995, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1247.699, "note": "experiment2"}
+{"kind": "rep", "t": -4.52326, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 42, 1, 0, 69, 77, 67, 98, 143, 63, 60, 0, 2, 1, 62], "stop_ok": true, "sum_ok": true, "wall": 1248.338, "note": "experiment2"}
+{"kind": "req", "t": -0.19233999999999973, "bytes": [129, 82, 98, 69, 130], "stop_ok": true, "sum_ok": false, "wall": 1252.669, "note": "experiment2"}
+{"kind": "req", "t": -8.30691, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1257.639, "note": "experiment2"}
+{"kind": "rep", "t": -7.67097, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 42, 1, 0, 69, 77, 67, 98, 143, 63, 60, 0, 2, 1, 62], "stop_ok": true, "sum_ok": true, "wall": 1258.275, "note": "experiment2"}
+{"kind": "req", "t": -3.33613, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1262.61, "note": "experiment2"}
+{"kind": "rep", "t": -2.703759999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 67, 98, 143, 63, 60, 0, 2, 1, 63], "stop_ok": true, "sum_ok": true, "wall": 1263.243, "note": "experiment2"}
+{"kind": "rep", "t": -10.0, "bytes": [1, 62], "stop_ok": true, "sum_ok": false, "wall": 1269.004, "note": "experiment2"}
+{"kind": "req", "t": -6.45078, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1272.553, "note": "experiment2"}
+{"kind": "rep", "t": -5.8115, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 42, 1, 0, 69, 77, 67, 98, 143, 63, 59, 0, 2, 1, 61], "stop_ok": true, "sum_ok": true, "wall": 1273.192, "note": "experiment2"}
+{"kind": "req", "t": -1.4802099999999996, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1277.524, "note": "experiment2"}
+{"kind": "rep", "t": -0.8418599999999987, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 67, 98, 143, 63, 60, 0, 2, 1], "stop_ok": true, "sum_ok": false, "wall": 1278.162, "note": "experiment2"}
+{"kind": "req", "t": -9.58068, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1282.494, "note": "experiment2"}
+{"kind": "rep", "t": -8.94468, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 77, 67, 98, 143, 63, 60, 0, 2, 1, 64], "stop_ok": true, "sum_ok": true, "wall": 1283.13, "note": "experiment2"}
+{"kind": "req", "t": -4.609999999999999, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1287.464, "note": "experiment2"}
+{"kind": "rep", "t": -3.9706799999999998, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 42, 1, 0, 69, 77, 67, 98, 143, 63, 60, 0, 2, 1, 62], "stop_ok": true, "sum_ok": true, "wall": 1288.104, "note": "experiment2"}
+{"kind": "req", "t": -7.72246, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1297.413, "note": "experiment2"}
+{"kind": "rep", "t": -7.08775, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 77, 67, 98, 145, 63, 59, 0, 2, 1, 65], "stop_ok": true, "sum_ok": true, "wall": 1298.048, "note": "experiment2"}
+{"kind": "req", "t": -2.751829999999999, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1302.384, "note": "experiment2"}
+{"kind": "rep", "t": -2.1130999999999993, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 41, 1, 0, 69, 77, 67, 98, 145, 63, 60, 0, 2, 1, 64], "stop_ok": true, "sum_ok": true, "wall": 1303.022, "note": "experiment2"}
+{"kind": "rep", "t": -10.0, "bytes": [12, 136, 26, 90, 57, 169, 1, 0, 69, 77, 67, 98, 145, 63, 60, 0, 2, 1, 65], "stop_ok": false, "sum_ok": false, "wall": 1308.2, "note": "experiment2"}
+{"kind": "req", "t": -5.88375, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1312.317, "note": "experiment2"}
+{"kind": "rep", "t": -5.2505999999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 69, 77, 67, 98, 145, 63, 60, 0, 2, 1, 68], "stop_ok": true, "sum_ok": true, "wall": 1312.95, "note": "experiment2"}
+{"kind": "req", "t": -0.9131499999999999, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1317.287, "note": "experiment2"}
+{"kind": "rep", "t": -0.2742899999999988, "bytes": [40, 52, 0, 0, 0, 0, 132, 0], "stop_ok": true, "sum_ok": false, "wall": 1317.926, "note": "experiment2"}
+{"kind": "req", "t": -9.0092, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1322.265, "note": "experiment2"}
+{"kind": "rep", "t": -8.37245, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 41, 1, 0, 69, 77, 67, 98, 145, 63, 60, 0, 2, 1, 64], "stop_ok": true, "sum_ok": true, "wall": 1322.901, "note": "experiment2"}
+{"kind": "req", "t": -4.038449999999999, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1327.235, "note": "experiment2"}
+{"kind": "rep", "t": -3.4055299999999997, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 78, 67, 98, 145, 63, 60, 0, 2, 1, 67], "stop_ok": true, "sum_ok": true, "wall": 1327.868, "note": "experiment2"}
+{"kind": "req", "t": -7.16666, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1337.176, "note": "experiment2"}
+{"kind": "rep", "t": -6.53257, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 69, 78, 67, 98, 145, 63, 60, 0, 2, 1, 69], "stop_ok": true, "sum_ok": true, "wall": 1337.81, "note": "experiment2"}
+{"kind": "req", "t": -2.1961199999999996, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1342.147, "note": "experiment2"}
+{"kind": "rep", "t": -1.55865, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 69, 78, 67, 98, 145, 63, 60, 0, 2, 1, 69], "stop_ok": true, "sum_ok": true, "wall": 1342.784, "note": "experiment2"}
+{"kind": "req", "t": -10.0, "bytes": [0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": false, "wall": 1347.416, "note": "experiment2"}
+{"kind": "rep", "t": -9.66615, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 69, 78, 67, 98, 145, 63, 60, 0, 2, 1, 69], "stop_ok": true, "sum_ok": true, "wall": 1347.749, "note": "experiment2"}
+{"kind": "req", "t": -5.33146, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1352.084, "note": "experiment2"}
+{"kind": "rep", "t": -4.6975299999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 69, 78, 67, 98, 145, 63, 60, 0, 2, 1, 69], "stop_ok": true, "sum_ok": true, "wall": 1352.718, "note": "experiment2"}
+{"kind": "req", "t": -0.3607699999999987, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0], "stop_ok": true, "sum_ok": false, "wall": 1357.055, "note": "experiment2"}
+{"kind": "req", "t": -8.47045, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1362.034, "note": "experiment2"}
+{"kind": "rep", "t": -7.8346599999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 78, 67, 98, 147, 63, 60, 0, 2, 1, 66], "stop_ok": true, "sum_ok": false, "wall": 1362.67, "note": "experiment2"}
+{"kind": "req", "t": -3.4997299999999996, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1367.005, "note": "experiment2"}
+{"kind": "rep", "t": -2.866129999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 78, 67, 98, 145, 63, 60, 0, 2, 1, 66], "stop_ok": true, "sum_ok": true, "wall": 1367.638, "note": "experiment2"}
+{"kind": "req", "t": -6.6396, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1376.939, "note": "experiment2"}
+{"kind": "rep", "t": -6.00553, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 79, 67, 98, 145, 63, 60, 0, 2, 1, 67], "stop_ok": true, "sum_ok": true, "wall": 1377.573, "note": "experiment2"}
+{"kind": "req", "t": -1.6690699999999996, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1381.91, "note": "experiment2"}
+{"kind": "rep", "t": -1.03632, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 79, 67, 98, 145, 63, 60, 0, 2, 1, 68], "stop_ok": true, "sum_ok": true, "wall": 1382.542, "note": "experiment2"}
+{"kind": "req", "t": -9.74641, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1386.887, "note": "experiment2"}
+{"kind": "rep", "t": -9.11107, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 79, 67, 98, 145, 63, 60, 0, 2, 1, 67], "stop_ok": true, "sum_ok": true, "wall": 1387.522, "note": "experiment2"}
+{"kind": "req", "t": -4.7756799999999995, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1391.857, "note": "experiment2"}
+{"kind": "rep", "t": -4.142379999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 70, 79, 67, 98, 147, 63, 59, 0, 2, 1, 72], "stop_ok": true, "sum_ok": true, "wall": 1392.491, "note": "experiment2"}
+{"kind": "req", "t": -7.88472, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1401.797, "note": "experiment2"}
+{"kind": "rep", "t": -7.24869, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 42, 1, 0, 70, 79, 68, 98, 147, 63, 60, 0, 2, 1, 73], "stop_ok": true, "sum_ok": true, "wall": 1402.433, "note": "experiment2"}
+{"kind": "req", "t": -2.9139999999999997, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1406.768, "note": "experiment2"}
+{"kind": "rep", "t": -2.280359999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 70, 79, 68, 98, 147, 63, 60, 0, 2, 1, 74], "stop_ok": true, "sum_ok": true, "wall": 1407.401, "note": "experiment2"}
+{"kind": "rep", "t": -10.0, "bytes": [165, 10, 0, 70, 79, 68, 98, 147, 63, 60, 0, 2, 1, 73], "stop_ok": false, "sum_ok": false, "wall": 1412.746, "note": "experiment2"}
+{"kind": "req", "t": -6.0441199999999995, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1416.702, "note": "experiment2"}
+{"kind": "rep", "t": -5.409179999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80, 43, 1, 0, 70, 79, 68, 98, 147, 63, 60, 0, 2, 1, 74], "stop_ok": true, "sum_ok": true, "wall": 1417.337, "note": "experiment2"}
+{"kind": "req", "t": -1.0735399999999995, "bytes": [129, 82, 98, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 169], "stop_ok": true, "sum_ok": true, "wall": 1421.673, "note": "experiment2"}
+{"kind": "rep", "t": -0.4341899999999992, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 80], "stop_ok": true, "sum_ok": false, "wall": 1422.312, "note": "experiment2"}
+{"kind": "req", "t": -9.18822, "bytes": [129, 82, 98, 69, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 1426.646, "note": "experiment2"}
+{"kind": "rep", "t": -8.550699999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 70, 79, 68, 98, 147, 63, 60, 0, 2, 1, 71], "stop_ok": true, "sum_ok": true, "wall": 1427.284, "note": "experiment2"}
+{"kind": "req", "t": -4.21744, "bytes": [129, 82, 98, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 169], "stop_ok": true, "sum_ok": true, "wall": 1431.617, "note": "experiment2"}
+{"kind": "rep", "t": -3.582229999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 70, 79, 68, 98, 147, 63, 59, 0, 2, 1, 71], "stop_ok": true, "sum_ok": true, "wall": 1432.252, "note": "experiment2"}
+{"kind": "req", "t": -7.33277, "bytes": [129, 82, 98, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 169], "stop_ok": true, "sum_ok": true, "wall": 1441.566, "note": "experiment2"}
+{"kind": "rep", "t": -6.694509999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 78, 68, 98, 147, 63, 60, 0, 2, 1, 69], "stop_ok": true, "sum_ok": true, "wall": 1442.205, "note": "experiment2"}
+{"kind": "req", "t": -2.362189999999999, "bytes": [129, 82, 98, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 169], "stop_ok": true, "sum_ok": true, "wall": 1446.537, "note": "experiment2"}
+{"kind": "rep", "t": -1.728209999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 44, 1, 0, 69, 78, 68, 98, 147, 63, 59, 0, 2, 1, 70], "stop_ok": true, "sum_ok": true, "wall": 1447.171, "note": "experiment2"}
+{"kind": "req", "t": -9.99998, "bytes": [2, 169], "stop_ok": true, "sum_ok": false, "wall": 1451.965, "note": "experiment2"}
+{"kind": "rep", "t": -9.83115, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 42, 1, 0, 69, 78, 68, 98, 147, 63, 59, 0, 2, 1, 68], "stop_ok": true, "sum_ok": true, "wall": 1452.133, "note": "experiment2"}
+{"kind": "req", "t": -5.49282, "bytes": [129, 82, 97, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 168], "stop_ok": true, "sum_ok": true, "wall": 1456.472, "note": "experiment2"}
+{"kind": "rep", "t": -4.85692, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 35, 75, 78, 43, 1, 0, 69, 78, 68, 97, 147, 63, 60, 0, 2, 1, 69], "stop_ok": true, "sum_ok": true, "wall": 1457.108, "note": "experiment2"}
+{"kind": "req", "t": -0.5220299999999991, "bytes": [129, 82, 97, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2], "stop_ok": true, "sum_ok": false, "wall": 1461.442, "note": "experiment2"}
+{"kind": "req", "t": -8.62087, "bytes": [129, 82, 97, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 168], "stop_ok": true, "sum_ok": true, "wall": 1466.418, "note": "experiment2"}
+{"kind": "rep", "t": -7.98365, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 78, 68, 97, 147, 63, 60, 0, 2, 1, 68], "stop_ok": true, "sum_ok": true, "wall": 1467.055, "note": "experiment2"}
+{"kind": "req", "t": -3.650429999999999, "bytes": [129, 82, 97, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 168], "stop_ok": true, "sum_ok": true, "wall": 1471.388, "note": "experiment2"}
+{"kind": "rep", "t": -3.0148599999999997, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 68, 97, 147, 63, 60, 0, 2, 1, 67], "stop_ok": true, "sum_ok": true, "wall": 1472.024, "note": "experiment2"}
+{"kind": "req", "t": -6.765319999999999, "bytes": [129, 82, 97, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 168], "stop_ok": true, "sum_ok": true, "wall": 1481.326, "note": "experiment2"}
+{"kind": "rep", "t": -6.1275699999999995, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 68, 97, 150, 63, 59, 0, 2, 1, 69], "stop_ok": true, "sum_ok": true, "wall": 1481.964, "note": "experiment2"}
+{"kind": "req", "t": -1.7948299999999993, "bytes": [129, 82, 97, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 168], "stop_ok": true, "sum_ok": true, "wall": 1486.297, "note": "experiment2"}
+{"kind": "rep", "t": -1.1583299999999994, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 42, 1, 0, 69, 77, 68, 97, 150, 63, 60, 0, 2, 1, 69], "stop_ok": true, "sum_ok": true, "wall": 1486.933, "note": "experiment2"}
+{"kind": "req", "t": -9.88672, "bytes": [129, 82, 97, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 168], "stop_ok": true, "sum_ok": true, "wall": 1491.268, "note": "experiment2"}
+{"kind": "rep", "t": -9.24731, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 68, 97, 150, 63, 60, 0, 2, 1, 70], "stop_ok": true, "sum_ok": true, "wall": 1491.907, "note": "experiment2"}
+{"kind": "req", "t": -4.91594, "bytes": [129, 82, 97, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 168], "stop_ok": true, "sum_ok": true, "wall": 1496.239, "note": "experiment2"}
+{"kind": "rep", "t": -4.2776, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 43, 1, 0, 69, 77, 68, 97, 150, 63, 60, 0, 2, 1, 70], "stop_ok": true, "sum_ok": true, "wall": 1496.877, "note": "experiment2"}
+{"kind": "req", "t": -8.02496, "bytes": [129, 82, 97, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 168], "stop_ok": true, "sum_ok": true, "wall": 1506.181, "note": "experiment2"}
+{"kind": "rep", "t": -7.391629999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 42, 1, 0, 69, 77, 67, 97, 150, 63, 60, 0, 2, 1, 68], "stop_ok": true, "sum_ok": true, "wall": 1506.815, "note": "experiment2"}
+{"kind": "req", "t": -3.0543499999999995, "bytes": [129, 82, 97, 68, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 168], "stop_ok": true, "sum_ok": true, "wall": 1511.152, "note": "experiment2"}
+{"kind": "rep", "t": -2.418379999999999, "bytes": [40, 52, 0, 0, 0, 0, 132, 0, 52, 34, 75, 78, 44, 1, 0, 69, 77, 67, 97, 150, 63, 60, 0, 2, 1, 70], "stop_ok": true, "sum_ok": true, "wall": 1511.788, "note": "experiment2"}
+{"kind": "req", "t": -10.0, "bytes": [21, 17, 1, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 172], "stop_ok": false, "sum_ok": false, "wall": 1575.819, "note": "modes"}
+{"kind": "rep", "t": -9.41024, "bytes": [40, 47, 0, 0, 0, 0, 132, 0, 45, 34, 0, 66, 23, 1, 0, 69, 77, 67, 97, 100, 63, 58, 0, 0, 1, 152], "stop_ok": true, "sum_ok": true, "wall": 1576.408, "note": "modes"}
+{"kind": "req", "t": -5.07241, "bytes": [129, 88, 96, 68, 128, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1580.746, "note": "modes"}
+{"kind": "rep", "t": -4.43579, "bytes": [40, 44, 0, 0, 0, 0, 132, 0, 42, 36, 0, 62, 22, 1, 0, 69, 77, 67, 96, 100, 63, 59, 0, 0, 1, 143], "stop_ok": true, "sum_ok": true, "wall": 1581.383, "note": "modes"}
+{"kind": "req", "t": -0.1017399999999995, "bytes": [129, 88, 96], "stop_ok": true, "sum_ok": false, "wall": 1585.717, "note": "modes"}
+{"kind": "req", "t": -8.22251, "bytes": [129, 88, 96, 68, 128, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 1590.679, "note": "modes"}
+{"kind": "rep", "t": -7.585839999999999, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 0, 0, 163, 0, 0, 69, 77, 67, 96, 179, 63, 59, 0, 0, 1, 178], "stop_ok": true, "sum_ok": true, "wall": 1591.315, "note": "modes"}
+{"kind": "req", "t": -3.2519399999999994, "bytes": [129, 88, 96, 69, 128, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 172], "stop_ok": true, "sum_ok": true, "wall": 1595.649, "note": "modes"}
+{"kind": "rep", "t": -2.6186799999999995, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 0, 0, 161, 0, 0, 69, 77, 67, 96, 250, 63, 59, 0, 0, 1, 247], "stop_ok": true, "sum_ok": true, "wall": 1596.283, "note": "modes"}
+{"kind": "rep", "t": -10.0, "bytes": [39, 0, 1, 248], "stop_ok": false, "sum_ok": false, "wall": 1601.964, "note": "modes"}
+{"kind": "req", "t": -6.36841, "bytes": [129, 88, 95, 72, 128, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 174], "stop_ok": true, "sum_ok": true, "wall": 1605.595, "note": "modes"}
+{"kind": "rep", "t": -5.732399999999999, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 0, 0, 161, 0, 0, 69, 77, 66, 95, 250, 63, 59, 0, 0, 1, 245], "stop_ok": true, "sum_ok": true, "wall": 1606.231, "note": "modes"}
+{"kind": "req", "t": -1.39785, "bytes": [129, 88, 95, 74, 128, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 179], "stop_ok": true, "sum_ok": true, "wall": 1610.566, "note": "modes"}
+{"kind": "rep", "t": -0.7610699999999984, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 0, 0, 162, 0, 0, 69, 77, 65, 95, 250, 63, 59], "stop_ok": true, "sum_ok": false, "wall": 1611.203, "note": "modes"}
+{"kind": "req", "t": -9.49982, "bytes": [129, 88, 95, 75, 128, 135, 8, 0, 0, 0, 0, 0, 35, 0, 3, 184], "stop_ok": true, "sum_ok": true, "wall": 1615.541, "note": "modes"}
+{"kind": "rep", "t": -8.86519, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 0, 0, 161, 0, 0, 69, 77, 64, 95, 250, 63, 59, 0, 0, 1, 243], "stop_ok": true, "sum_ok": true, "wall": 1616.176, "note": "modes"}
+{"kind": "req", "t": -4.52922, "bytes": [129, 88, 95, 77, 128, 135, 8, 0, 0, 0, 0, 0, 35, 0, 3, 186], "stop_ok": true, "sum_ok": true, "wall": 1620.512, "note": "modes"}
+{"kind": "rep", "t": -3.8925899999999993, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 0, 0, 164, 0, 0, 69, 77, 64, 95, 250, 63, 59, 0, 0, 1, 246], "stop_ok": true, "sum_ok": true, "wall": 1621.148, "note": "modes"}
+{"kind": "req", "t": -7.64239, "bytes": [129, 90, 94, 79, 131, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 188], "stop_ok": true, "sum_ok": true, "wall": 1630.446, "note": "modes"}
+{"kind": "rep", "t": -7.00853, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 60, 0, 164, 0, 0, 69, 75, 62, 94, 118, 63, 59, 0, 0, 1, 169], "stop_ok": true, "sum_ok": true, "wall": 1631.08, "note": "modes"}
+{"kind": "req", "t": -2.6717999999999993, "bytes": [129, 90, 94, 80, 131, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 189], "stop_ok": true, "sum_ok": true, "wall": 1635.417, "note": "modes"}
+{"kind": "rep", "t": -2.0368299999999993, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 60, 0, 164, 0, 0, 69, 74, 62, 94, 100, 63, 59, 0, 0, 1, 150], "stop_ok": true, "sum_ok": true, "wall": 1636.052, "note": "modes"}
+{"kind": "rep", "t": -9.99706, "bytes": [0, 0, 132, 0, 0, 0, 60, 0, 164, 0, 0, 69, 74, 62, 94, 100, 63, 59, 0, 0, 1, 150], "stop_ok": true, "sum_ok": false, "wall": 1641.159, "note": "modes"}
+{"kind": "req", "t": -5.79784, "bytes": [129, 90, 94, 81, 131, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 190], "stop_ok": true, "sum_ok": true, "wall": 1645.359, "note": "modes"}
+{"kind": "rep", "t": -5.16283, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 60, 0, 163, 0, 0, 69, 73, 61, 94, 100, 63, 59, 0, 0, 1, 147], "stop_ok": true, "sum_ok": true, "wall": 1645.994, "note": "modes"}
+{"kind": "req", "t": -0.8272499999999994, "bytes": [129, 90, 94, 81, 131, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 190], "stop_ok": true, "sum_ok": true, "wall": 1650.329, "note": "modes"}
+{"kind": "rep", "t": -0.18957999999999942, "bytes": [40, 0, 0, 0, 0], "stop_ok": true, "sum_ok": false, "wall": 1650.967, "note": "modes"}
+{"kind": "req", "t": -8.93787, "bytes": [129, 90, 94, 82, 131, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 191], "stop_ok": true, "sum_ok": true, "wall": 1655.308, "note": "modes"}
+{"kind": "rep", "t": -8.30465, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 60, 0, 163, 0, 0, 69, 72, 60, 94, 100, 63, 58, 0, 0, 1, 144], "stop_ok": true, "sum_ok": true, "wall": 1655.942, "note": "modes"}
+{"kind": "req", "t": -3.9673, "bytes": [129, 90, 94, 82, 131, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 191], "stop_ok": true, "sum_ok": true, "wall": 1660.279, "note": "modes"}
+{"kind": "rep", "t": -3.33179, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 60, 0, 164, 0, 0, 69, 72, 60, 94, 100, 63, 59, 0, 0, 1, 146], "stop_ok": true, "sum_ok": true, "wall": 1660.914, "note": "modes"}
+{"kind": "req", "t": -7.08505, "bytes": [129, 91, 95, 83, 131, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 194], "stop_ok": true, "sum_ok": true, "wall": 1670.218, "note": "modes"}
+{"kind": "rep", "t": -6.44965, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 60, 0, 164, 0, 0, 69, 71, 60, 95, 100, 63, 58, 0, 0, 1, 145], "stop_ok": true, "sum_ok": true, "wall": 1670.853, "note": "modes"}
+{"kind": "req", "t": -2.1144999999999996, "bytes": [129, 91, 95, 84, 131, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 195], "stop_ok": true, "sum_ok": true, "wall": 1675.189, "note": "modes"}
+{"kind": "rep", "t": -1.4781199999999988, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 60, 0, 164, 0, 0, 69, 70, 59, 95, 100, 63, 59, 0, 0, 1, 144], "stop_ok": true, "sum_ok": true, "wall": 1675.825, "note": "modes"}
+{"kind": "req", "t": -10.0, "bytes": [8, 0, 0, 0, 0, 35, 0, 4, 195], "stop_ok": false, "sum_ok": false, "wall": 1680.361, "note": "modes"}
+{"kind": "rep", "t": -9.56508, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 60, 0, 163, 0, 0, 69, 70, 59, 95, 100, 63, 59, 0, 0, 1, 143], "stop_ok": true, "sum_ok": true, "wall": 1680.796, "note": "modes"}
+{"kind": "req", "t": -5.233099999999999, "bytes": [129, 92, 96, 84, 131, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 197], "stop_ok": true, "sum_ok": true, "wall": 1685.128, "note": "modes"}
+{"kind": "rep", "t": -4.5977, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 60, 0, 163, 0, 0, 69, 70, 59, 96, 100, 63, 58, 0, 0, 1, 143], "stop_ok": true, "sum_ok": true, "wall": 1685.763, "note": "modes"}
+{"kind": "req", "t": -0.2626299999999997, "bytes": [129, 88, 96, 84, 131, 134, 8], "stop_ok": true, "sum_ok": false, "wall": 1690.098, "note": "modes"}
+{"kind": "req", "t": -8.37468, "bytes": [129, 88, 96, 84, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 192], "stop_ok": true, "sum_ok": true, "wall": 1695.071, "note": "modes"}
+{"kind": "rep", "t": -7.739879999999999, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 75, 0, 164, 0, 0, 69, 69, 58, 96, 100, 63, 58, 0, 0, 1, 157], "stop_ok": true, "sum_ok": true, "wall": 1695.706, "note": "modes"}
+{"kind": "req", "t": -3.404139999999999, "bytes": [129, 88, 96, 84, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 192], "stop_ok": true, "sum_ok": true, "wall": 1700.042, "note": "modes"}
+{"kind": "rep", "t": -2.7673499999999995, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 75, 0, 164, 0, 0, 69, 69, 58, 96, 100, 63, 58, 0, 0, 1, 157], "stop_ok": true, "sum_ok": true, "wall": 1700.679, "note": "modes"}
+{"kind": "req", "t": -6.53515, "bytes": [129, 88, 96, 84, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 192], "stop_ok": true, "sum_ok": true, "wall": 1709.985, "note": "modes"}
+{"kind": "rep", "t": -5.8999999999999995, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 75, 0, 164, 0, 0, 69, 68, 58, 96, 100, 63, 58, 0, 0, 1, 156], "stop_ok": true, "sum_ok": true, "wall": 1710.62, "note": "modes"}
+{"kind": "req", "t": -1.5645799999999994, "bytes": [129, 88, 96, 84, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 192], "stop_ok": true, "sum_ok": true, "wall": 1714.956, "note": "modes"}
+{"kind": "rep", "t": -0.927859999999999, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 75, 0, 164, 0, 0, 69, 68, 57, 96, 100, 63, 59, 0, 0, 1, 156], "stop_ok": true, "sum_ok": true, "wall": 1715.592, "note": "modes"}
+{"kind": "req", "t": -9.71416, "bytes": [129, 88, 96, 84, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 192], "stop_ok": true, "sum_ok": true, "wall": 1719.92, "note": "modes"}
+{"kind": "rep", "t": -9.07961, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 75, 0, 164, 0, 0, 69, 68, 57, 96, 100, 63, 59, 0, 0, 1, 156], "stop_ok": true, "sum_ok": true, "wall": 1720.554, "note": "modes"}
+{"kind": "req", "t": -4.743609999999999, "bytes": [129, 88, 96, 84, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 192], "stop_ok": true, "sum_ok": true, "wall": 1724.89, "note": "modes"}
+{"kind": "rep", "t": -4.108269999999999, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 75, 0, 164, 0, 0, 69, 68, 57, 96, 100, 63, 59, 0, 0, 1, 156], "stop_ok": true, "sum_ok": true, "wall": 1725.526, "note": "modes"}
+{"kind": "req", "t": -7.90521, "bytes": [129, 88, 97, 85, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 191], "stop_ok": true, "sum_ok": true, "wall": 1734.833, "note": "modes"}
+{"kind": "rep", "t": -7.27084, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 75, 0, 166, 0, 0, 69, 67, 56, 97, 100, 63, 59, 0, 0, 1, 157], "stop_ok": true, "sum_ok": true, "wall": 1735.467, "note": "modes"}
+{"kind": "req", "t": -2.9346699999999997, "bytes": [129, 88, 97, 85, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 191], "stop_ok": true, "sum_ok": true, "wall": 1739.803, "note": "modes"}
+{"kind": "rep", "t": -2.2998499999999993, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 75, 0, 166, 0, 0, 69, 67, 56, 97, 100, 63, 59, 0, 0, 1, 157], "stop_ok": true, "sum_ok": true, "wall": 1740.438, "note": "modes"}
+{"kind": "rep", "t": -9.99978, "bytes": [26, 0, 68, 67, 56, 97, 100, 63, 60, 0, 0, 1, 157], "stop_ok": false, "sum_ok": false, "wall": 1745.825, "note": "modes"}
+{"kind": "req", "t": -6.082319999999999, "bytes": [129, 88, 97, 85, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 191], "stop_ok": true, "sum_ok": true, "wall": 1749.742, "note": "modes"}
+{"kind": "rep", "t": -5.449059999999999, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 75, 0, 166, 0, 0, 68, 67, 56, 97, 100, 63, 59, 0, 0, 1, 156], "stop_ok": true, "sum_ok": true, "wall": 1750.375, "note": "modes"}
+{"kind": "req", "t": -1.1117899999999992, "bytes": [129, 88, 97, 85, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 191], "stop_ok": true, "sum_ok": true, "wall": 1754.713, "note": "modes"}
+{"kind": "rep", "t": -0.47516999999999854, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 75, 0, 166, 0], "stop_ok": true, "sum_ok": false, "wall": 1755.349, "note": "modes"}
+{"kind": "req", "t": -9.27784, "bytes": [129, 88, 97, 85, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 191], "stop_ok": true, "sum_ok": true, "wall": 1759.686, "note": "modes"}
+{"kind": "rep", "t": -8.64096, "bytes": [40, 0, 0, 0, 0, 0, 132, 0, 0, 0, 75, 0, 162, 0, 0, 68, 67, 55, 97, 100, 63, 59, 0, 0, 1, 151], "stop_ok": true, "sum_ok": true, "wall": 1760.323, "note": "modes"}
+{"kind": "req", "t": -4.307309999999999, "bytes": [129, 88, 97, 85, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 194], "stop_ok": true, "sum_ok": true, "wall": 1764.657, "note": "modes"}
+{"kind": "rep", "t": -3.6667099999999992, "bytes": [40, 39, 0, 0, 0, 0, 132, 0, 41, 21, 55, 4, 156, 0, 0, 68, 67, 55, 97, 100, 63, 59, 0, 0, 1, 230], "stop_ok": true, "sum_ok": true, "wall": 1765.297, "note": "modes"}
+{"kind": "req", "t": -7.451309999999999, "bytes": [129, 88, 97, 85, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 194], "stop_ok": true, "sum_ok": true, "wall": 1774.598, "note": "modes"}
+{"kind": "rep", "t": -6.8129, "bytes": [40, 15, 0, 0, 0, 0, 132, 0, 41, 9, 55, 8, 213, 0, 0, 68, 67, 55, 97, 100, 63, 59, 0, 0, 1, 255], "stop_ok": true, "sum_ok": true, "wall": 1775.237, "note": "modes"}
+{"kind": "req", "t": -2.480809999999999, "bytes": [129, 88, 97, 85, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 194], "stop_ok": true, "sum_ok": true, "wall": 1779.569, "note": "modes"}
+{"kind": "rep", "t": -1.8444299999999991, "bytes": [40, 22, 0, 0, 0, 0, 132, 0, 41, 13, 73, 16, 213, 0, 0, 68, 68, 56, 97, 100, 63, 60, 0, 0, 1, 39], "stop_ok": true, "sum_ok": true, "wall": 1780.205, "note": "modes"}
+{"kind": "rep", "t": -9.94416, "bytes": [40, 31, 0, 0, 0, 0, 132, 0, 41, 19, 73, 26, 213, 0, 0, 68, 68, 56, 97, 100, 63, 58, 0, 0, 1, 62], "stop_ok": true, "sum_ok": true, "wall": 1785.182, "note": "modes"}
+{"kind": "req", "t": -5.611949999999999, "bytes": [129, 88, 97, 84, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 193], "stop_ok": true, "sum_ok": true, "wall": 1789.514, "note": "modes"}
+{"kind": "rep", "t": -4.97647, "bytes": [40, 39, 0, 0, 0, 0, 132, 0, 41, 23, 73, 38, 212, 0, 0, 68, 69, 56, 97, 100, 63, 58, 0, 0, 1, 86], "stop_ok": true, "sum_ok": true, "wall": 1790.15, "note": "modes"}
+{"kind": "req", "t": -0.6413599999999988, "bytes": [129, 88, 97, 82, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 191], "stop_ok": true, "sum_ok": true, "wall": 1794.485, "note": "modes"}
+{"kind": "req", "t": -8.73661, "bytes": [129, 88, 97, 82, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 191], "stop_ok": true, "sum_ok": true, "wall": 1799.453, "note": "modes"}
+{"kind": "rep", "t": -8.10079, "bytes": [40, 44, 0, 0, 0, 0, 132, 0, 46, 27, 73, 50, 22, 1, 0, 68, 71, 54, 97, 100, 63, 58, 0, 0, 1, 179], "stop_ok": true, "sum_ok": true, "wall": 1800.089, "note": "modes"}
+{"kind": "req", "t": -3.7661, "bytes": [129, 88, 97, 81, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 190], "stop_ok": true, "sum_ok": true, "wall": 1804.423, "note": "modes"}
+{"kind": "rep", "t": -3.1319799999999995, "bytes": [40, 47, 0, 0, 0, 0, 132, 0, 49, 28, 73, 56, 24, 1, 0, 68, 72, 53, 97, 100, 63, 57, 0, 0, 1, 193], "stop_ok": true, "sum_ok": true, "wall": 1805.058, "note": "modes"}
+{"kind": "req", "t": -6.90428, "bytes": [129, 88, 97, 80, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 189], "stop_ok": true, "sum_ok": true, "wall": 1814.366, "note": "modes"}
+{"kind": "rep", "t": -6.264239999999999, "bytes": [40, 55, 0, 0, 0, 0, 132, 0, 55, 28, 73, 66, 42, 1, 0, 68, 75, 53, 97, 100, 63, 59, 0, 0, 1, 240], "stop_ok": true, "sum_ok": true, "wall": 1815.006, "note": "modes"}
+{"kind": "req", "t": -1.9336099999999998, "bytes": [129, 88, 97, 80, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 189], "stop_ok": true, "sum_ok": true, "wall": 1819.337, "note": "modes"}
+{"kind": "rep", "t": -1.29744, "bytes": [40, 55, 0, 0, 0, 0, 132, 0, 55, 28, 75, 68, 44, 1, 0, 68, 75, 53, 97, 100, 63, 59, 0, 0, 1, 246], "stop_ok": true, "sum_ok": true, "wall": 1819.973, "note": "modes"}
+{"kind": "req", "t": -10.0, "bytes": [88, 97, 79, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 188], "stop_ok": true, "sum_ok": false, "wall": 1824.337, "note": "modes"}
+{"kind": "rep", "t": -9.38998, "bytes": [40, 55, 0, 0, 0, 0, 132, 0, 55, 28, 75, 68, 42, 1, 0, 68, 76, 53, 97, 100, 63, 59, 0, 0, 1, 245], "stop_ok": true, "sum_ok": true, "wall": 1824.947, "note": "modes"}
+{"kind": "req", "t": -5.05429, "bytes": [129, 88, 97, 79, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 3, 188], "stop_ok": true, "sum_ok": true, "wall": 1829.283, "note": "modes"}
+{"kind": "rep", "t": -4.4154599999999995, "bytes": [40, 55, 0, 0, 0, 0, 132, 0, 55, 28, 75, 68, 43, 1, 0, 68, 76, 54, 97, 100, 63, 59, 0, 0, 1, 247], "stop_ok": true, "sum_ok": true, "wall": 1829.921, "note": "modes"}
+{"kind": "req", "t": -0.08368999999999893, "bytes": [129, 88], "stop_ok": true, "sum_ok": false, "wall": 1834.253, "note": "modes"}
+{"kind": "req", "t": -8.18166, "bytes": [129, 88, 97, 78, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 7, 190], "stop_ok": true, "sum_ok": true, "wall": 1839.224, "note": "modes"}
+{"kind": "rep", "t": -7.5491399999999995, "bytes": [40, 55, 0, 0, 0, 0, 132, 0, 55, 28, 75, 68, 42, 1, 0, 68, 77, 54, 97, 100, 63, 59, 0, 0, 1, 247], "stop_ok": true, "sum_ok": true, "wall": 1839.857, "note": "modes"}
+{"kind": "req", "t": -3.21113, "bytes": [129, 88, 97, 78, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 7, 190], "stop_ok": true, "sum_ok": true, "wall": 1844.195, "note": "modes"}
+{"kind": "rep", "t": -2.5738699999999994, "bytes": [40, 55, 0, 0, 0, 0, 132, 0, 55, 28, 75, 68, 43, 1, 0, 68, 77, 54, 97, 100, 63, 59, 0, 0, 1, 248], "stop_ok": true, "sum_ok": true, "wall": 1844.832, "note": "modes"}
+{"kind": "rep", "t": -9.99916, "bytes": [63, 59, 0, 0, 1, 248], "stop_ok": true, "sum_ok": false, "wall": 1850.468, "note": "modes"}
+{"kind": "req", "t": -6.333209999999999, "bytes": [129, 88, 97, 77, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 7, 189], "stop_ok": true, "sum_ok": true, "wall": 1854.134, "note": "modes"}
+{"kind": "rep", "t": -5.696219999999999, "bytes": [40, 55, 0, 0, 0, 0, 132, 0, 55, 28, 75, 68, 43, 1, 0, 68, 77, 55, 97, 100, 63, 59, 0, 0, 1, 249], "stop_ok": true, "sum_ok": true, "wall": 1854.771, "note": "modes"}
+{"kind": "req", "t": -1.3625299999999996, "bytes": [129, 88, 97, 76, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 7, 188], "stop_ok": true, "sum_ok": true, "wall": 1859.105, "note": "modes"}
+{"kind": "rep", "t": -0.7275099999999988, "bytes": [40, 55, 0, 0, 0, 0, 132, 0, 55, 29, 75, 68, 43, 1, 0, 68, 77, 55, 97, 100, 63], "stop_ok": true, "sum_ok": false, "wall": 1859.74, "note": "modes"}
+{"kind": "req", "t": -9.4642, "bytes": [129, 88, 97, 76, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 7, 188], "stop_ok": true, "sum_ok": true, "wall": 1864.076, "note": "modes"}
+{"kind": "rep", "t": -8.83153, "bytes": [40, 55, 0, 0, 0, 0, 132, 0, 55, 29, 75, 70, 43, 1, 0, 68, 77, 55, 97, 100, 63, 60, 0, 0, 1, 253], "stop_ok": true, "sum_ok": true, "wall": 1864.708, "note": "modes"}
+{"kind": "req", "t": -4.49369, "bytes": [129, 88, 97, 76, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 7, 188], "stop_ok": true, "sum_ok": true, "wall": 1869.046, "note": "modes"}
+{"kind": "rep", "t": -3.85743, "bytes": [40, 55, 0, 0, 0, 0, 132, 0, 55, 29, 75, 70, 43, 1, 0, 68, 77, 55, 97, 100, 63, 60, 0, 0, 1, 253], "stop_ok": true, "sum_ok": true, "wall": 1869.683, "note": "modes"}
+{"kind": "req", "t": -9.2746, "bytes": [129, 88, 97, 73, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 7, 185], "stop_ok": true, "sum_ok": true, "wall": 1903.842, "note": "fan"}
+{"kind": "rep", "t": -8.63616, "bytes": [40, 63, 0, 0, 0, 0, 132, 0, 65, 31, 75, 88, 41, 1, 0, 68, 76, 57, 97, 100, 63, 60, 0, 0, 1, 34], "stop_ok": false, "sum_ok": true, "wall": 1904.48, "note": "fan"}
+{"kind": "req", "t": -4.303929999999999, "bytes": [129, 88, 97, 72, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 7, 184], "stop_ok": true, "sum_ok": true, "wall": 1908.812, "note": "fan"}
+{"kind": "rep", "t": -3.6686199999999998, "bytes": [40, 65, 0, 0, 0, 0, 132, 0, 66, 32, 75, 90, 43, 1, 0, 68, 76, 57, 97, 100, 63, 60, 0, 0, 1, 42], "stop_ok": true, "sum_ok": true, "wall": 1909.448, "note": "fan"}
+{"kind": "req", "t": -7.4343699999999995, "bytes": [129, 88, 97, 72, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 7, 184], "stop_ok": true, "sum_ok": true, "wall": 1918.754, "note": "fan"}
+{"kind": "rep", "t": -6.79759, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 32, 75, 92, 43, 1, 0, 68, 76, 58, 97, 100, 63, 60, 0, 2, 1, 48], "stop_ok": true, "sum_ok": true, "wall": 1919.391, "note": "fan"}
+{"kind": "req", "t": -2.4637399999999996, "bytes": [129, 88, 97, 72, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 7, 184], "stop_ok": true, "sum_ok": true, "wall": 1923.725, "note": "fan"}
+{"kind": "rep", "t": -1.8293, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 32, 75, 92, 43, 1, 0, 68, 76, 58, 97, 100, 63, 60, 0, 2, 1, 48], "stop_ok": true, "sum_ok": true, "wall": 1924.359, "note": "fan"}
+{"kind": "rep", "t": -9.91546, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 33, 75, 92, 43, 1, 0, 68, 76, 58, 97, 100, 63, 60, 0, 2, 1, 49], "stop_ok": true, "sum_ok": true, "wall": 1929.331, "note": "fan"}
+{"kind": "req", "t": -5.58542, "bytes": [129, 88, 97, 71, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 180], "stop_ok": true, "sum_ok": true, "wall": 1933.661, "note": "fan"}
+{"kind": "rep", "t": -4.948659999999999, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 33, 75, 92, 43, 1, 0, 68, 76, 59, 97, 100, 63, 60, 0, 2, 1, 50], "stop_ok": true, "sum_ok": true, "wall": 1934.297, "note": "fan"}
+{"kind": "req", "t": -0.6149299999999993, "bytes": [129, 88, 97, 70, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 179], "stop_ok": true, "sum_ok": true, "wall": 1938.631, "note": "fan"}
+{"kind": "req", "t": -8.69241, "bytes": [129, 88, 97, 70, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 179], "stop_ok": true, "sum_ok": true, "wall": 1943.608, "note": "fan"}
+{"kind": "rep", "t": -8.05368, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 33, 75, 94, 42, 1, 0, 68, 76, 59, 97, 100, 63, 60, 0, 2, 1, 51], "stop_ok": true, "sum_ok": true, "wall": 1944.247, "note": "fan"}
+{"kind": "req", "t": -3.7217599999999997, "bytes": [129, 88, 96, 70, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 178], "stop_ok": true, "sum_ok": true, "wall": 1948.579, "note": "fan"}
+{"kind": "rep", "t": -3.0847099999999994, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 33, 75, 94, 41, 1, 0, 68, 76, 60, 96, 100, 63, 61, 0, 2, 1, 51], "stop_ok": true, "sum_ok": true, "wall": 1949.216, "note": "fan"}
+{"kind": "req", "t": -6.85286, "bytes": [129, 88, 96, 69, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 177], "stop_ok": true, "sum_ok": true, "wall": 1958.522, "note": "fan"}
+{"kind": "rep", "t": -6.21425, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 34, 75, 96, 42, 1, 0, 68, 77, 61, 96, 100, 63, 61, 0, 2, 1, 57], "stop_ok": true, "sum_ok": true, "wall": 1959.16, "note": "fan"}
+{"kind": "req", "t": -1.8822899999999994, "bytes": [129, 88, 96, 68, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 176], "stop_ok": true, "sum_ok": true, "wall": 1963.492, "note": "fan"}
+{"kind": "rep", "t": -1.2472399999999997, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 34, 75, 96, 43, 1, 0, 68, 77, 61, 96, 100, 63, 61, 0, 2, 1, 58], "stop_ok": true, "sum_ok": true, "wall": 1964.127, "note": "fan"}
+{"kind": "req", "t": -10.0, "bytes": [96, 5, 13, 9, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 175], "stop_ok": false, "sum_ok": false, "wall": 1968.465, "note": "fan"}
+{"kind": "rep", "t": -9.369, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 34, 75, 96, 41, 1, 0, 68, 77, 61, 96, 100, 63, 60, 0, 2, 1, 55], "stop_ok": true, "sum_ok": true, "wall": 1969.096, "note": "fan"}
+{"kind": "req", "t": -5.032209999999999, "bytes": [129, 88, 96, 66, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 174], "stop_ok": true, "sum_ok": true, "wall": 1973.433, "note": "fan"}
+{"kind": "rep", "t": -4.394939999999999, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 34, 75, 96, 42, 1, 0, 68, 76, 62, 96, 100, 63, 61, 0, 2, 1, 57], "stop_ok": true, "sum_ok": true, "wall": 1974.07, "note": "fan"}
+{"kind": "req", "t": -0.06158999999999892, "bytes": [129], "stop_ok": true, "sum_ok": false, "wall": 1978.403, "note": "fan"}
+{"kind": "req", "t": -8.190479999999999, "bytes": [129, 88, 96, 63, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 171], "stop_ok": true, "sum_ok": true, "wall": 1983.371, "note": "fan"}
+{"kind": "rep", "t": -7.5526, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 35, 75, 98, 42, 1, 0, 68, 77, 62, 96, 100, 63, 60, 0, 2, 1, 60], "stop_ok": true, "sum_ok": true, "wall": 1984.009, "note": "fan"}
+{"kind": "req", "t": -3.21995, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 1988.342, "note": "fan"}
+{"kind": "rep", "t": -2.5828699999999998, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 35, 75, 98, 43, 1, 0, 68, 77, 63, 96, 100, 63, 60, 0, 2, 1, 62], "stop_ok": true, "sum_ok": true, "wall": 1988.979, "note": "fan"}
+{"kind": "rep", "t": -9.9977, "bytes": [63, 61, 0, 2, 3, 62], "stop_ok": true, "sum_ok": false, "wall": 1994.622, "note": "fan"}
+{"kind": "req", "t": -6.334759999999999, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 1998.285, "note": "fan"}
+{"kind": "rep", "t": -5.6979, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 35, 75, 100, 43, 1, 0, 68, 77, 63, 96, 100, 63, 61, 0, 2, 1, 65], "stop_ok": true, "sum_ok": true, "wall": 1998.922, "note": "fan"}
+{"kind": "req", "t": -1.3641100000000002, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2003.256, "note": "fan"}
+{"kind": "rep", "t": -0.7287499999999998, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 35, 75, 100, 43, 1, 0, 68, 77, 63, 96, 100, 63], "stop_ok": true, "sum_ok": false, "wall": 2003.891, "note": "fan"}
+{"kind": "req", "t": -9.47416, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2008.229, "note": "fan"}
+{"kind": "rep", "t": -8.8364, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 35, 75, 100, 42, 1, 0, 68, 77, 64, 96, 100, 63, 61, 0, 2, 1, 65], "stop_ok": true, "sum_ok": true, "wall": 2008.867, "note": "fan"}
+{"kind": "req", "t": -4.503679999999999, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2013.2, "note": "fan"}
+{"kind": "rep", "t": -3.8672499999999994, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 35, 75, 100, 43, 1, 0, 68, 77, 64, 96, 100, 63, 61, 0, 2, 1, 66], "stop_ok": true, "sum_ok": true, "wall": 2013.836, "note": "fan"}
+{"kind": "req", "t": -7.63418, "bytes": [129, 88, 96, 59, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 167], "stop_ok": true, "sum_ok": true, "wall": 2023.136, "note": "fan"}
+{"kind": "rep", "t": -6.99759, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 36, 75, 102, 44, 1, 0, 68, 77, 64, 96, 100, 63, 60, 0, 2, 1, 69], "stop_ok": true, "sum_ok": true, "wall": 2023.772, "note": "fan"}
+{"kind": "req", "t": -2.6635399999999994, "bytes": [129, 88, 96, 59, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 167], "stop_ok": true, "sum_ok": true, "wall": 2028.106, "note": "fan"}
+{"kind": "rep", "t": -2.0254899999999996, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 36, 75, 102, 41, 1, 0, 68, 77, 65, 96, 100, 63, 61, 0, 2, 1, 68], "stop_ok": true, "sum_ok": true, "wall": 2028.744, "note": "fan"}
+{"kind": "rep", "t": -10.0, "bytes": [24, 16, 16, 24, 144, 40, 210, 202, 169, 1, 0, 68, 77, 65, 96, 100, 63, 60, 0, 2, 1, 68], "stop_ok": false, "sum_ok": false, "wall": 2033.829, "note": "fan"}
+{"kind": "req", "t": -5.78241, "bytes": [129, 88, 96, 59, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 167], "stop_ok": true, "sum_ok": true, "wall": 2038.046, "note": "fan"}
+{"kind": "rep", "t": -5.14558, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 37, 75, 104, 43, 1, 0, 69, 78, 65, 96, 100, 63, 61, 0, 2, 1, 75], "stop_ok": true, "sum_ok": true, "wall": 2038.683, "note": "fan"}
+{"kind": "req", "t": -0.8116299999999992, "bytes": [129, 88, 96, 58, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 166], "stop_ok": true, "sum_ok": true, "wall": 2043.017, "note": "fan"}
+{"kind": "rep", "t": -0.17347999999999963, "bytes": [40, 66, 0, 0, 0], "stop_ok": true, "sum_ok": false, "wall": 2043.655, "note": "fan"}
+{"kind": "req", "t": -8.91768, "bytes": [129, 88, 96, 58, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 166], "stop_ok": true, "sum_ok": true, "wall": 2047.988, "note": "fan"}
+{"kind": "rep", "t": -8.28059, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 37, 75, 104, 41, 1, 0, 69, 78, 66, 96, 100, 63, 60, 0, 2, 1, 73], "stop_ok": true, "sum_ok": true, "wall": 2048.625, "note": "fan"}
+{"kind": "req", "t": -3.947259999999999, "bytes": [129, 88, 96, 58, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 166], "stop_ok": true, "sum_ok": true, "wall": 2052.958, "note": "fan"}
+{"kind": "rep", "t": -3.311419999999999, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 37, 75, 106, 42, 1, 0, 69, 78, 66, 96, 100, 63, 60, 0, 2, 1, 76], "stop_ok": true, "sum_ok": true, "wall": 2053.594, "note": "fan"}
+{"kind": "req", "t": -7.05301, "bytes": [129, 88, 96, 58, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 166], "stop_ok": true, "sum_ok": true, "wall": 2062.908, "note": "fan"}
+{"kind": "rep", "t": -6.41672, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 37, 75, 108, 43, 1, 0, 69, 79, 67, 96, 100, 63, 60, 0, 2, 3, 81], "stop_ok": true, "sum_ok": false, "wall": 2063.544, "note": "fan"}
+{"kind": "req", "t": -2.08233, "bytes": [129, 88, 96, 58, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 166], "stop_ok": true, "sum_ok": true, "wall": 2067.878, "note": "fan"}
+{"kind": "rep", "t": -1.4474599999999995, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 38, 75, 108, 42, 1, 0, 69, 79, 67, 96, 100, 63, 60, 0, 2, 1, 81], "stop_ok": true, "sum_ok": true, "wall": 2068.513, "note": "fan"}
+{"kind": "req", "t": -10.0, "bytes": [8, 0, 0, 0, 0, 35, 0, 4, 166], "stop_ok": false, "sum_ok": false, "wall": 2073.051, "note": "fan"}
+{"kind": "rep", "t": -9.57672, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 38, 75, 108, 42, 1, 0, 70, 79, 68, 96, 100, 63, 60, 0, 2, 1, 83], "stop_ok": true, "sum_ok": true, "wall": 2073.475, "note": "fan"}
+{"kind": "req", "t": -5.24038, "bytes": [129, 88, 96, 58, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 166], "stop_ok": true, "sum_ok": true, "wall": 2077.811, "note": "fan"}
+{"kind": "rep", "t": -4.60499, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 38, 75, 108, 42, 1, 0, 70, 79, 68, 96, 100, 63, 61, 0, 2, 1, 84], "stop_ok": true, "sum_ok": true, "wall": 2078.446, "note": "fan"}
+{"kind": "req", "t": -0.2698299999999989, "bytes": [129, 88, 96, 58, 130, 130, 8, 0], "stop_ok": true, "sum_ok": false, "wall": 2082.782, "note": "fan"}
+{"kind": "req", "t": -6.94946, "bytes": [129, 88, 96, 59, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 167], "stop_ok": true, "sum_ok": true, "wall": 2107.642, "note": "fan2"}
+{"kind": "rep", "t": -6.31409, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 39, 75, 108, 42, 1, 0, 70, 81, 70, 96, 99, 72, 61, 0, 2, 1, 97], "stop_ok": true, "sum_ok": true, "wall": 2108.277, "note": "fan2"}
+{"kind": "req", "t": -1.978909999999999, "bytes": [129, 88, 96, 59, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 167], "stop_ok": true, "sum_ok": true, "wall": 2112.612, "note": "fan2"}
+{"kind": "rep", "t": -1.3410899999999994, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 39, 75, 108, 41, 1, 0, 70, 81, 71, 96, 99, 72, 61, 0, 2, 1, 97], "stop_ok": true, "sum_ok": true, "wall": 2113.25, "note": "fan2"}
+{"kind": "req", "t": -9.99946, "bytes": [96, 59, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 167], "stop_ok": true, "sum_ok": false, "wall": 2117.645, "note": "fan2"}
+{"kind": "rep", "t": -9.43052, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 39, 75, 108, 40, 1, 0, 70, 81, 71, 96, 99, 72, 61, 0, 2, 1, 96], "stop_ok": true, "sum_ok": true, "wall": 2118.214, "note": "fan2"}
+{"kind": "req", "t": -5.094989999999999, "bytes": [129, 88, 96, 59, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 167], "stop_ok": true, "sum_ok": true, "wall": 2122.55, "note": "fan2"}
+{"kind": "rep", "t": -4.461329999999999, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 39, 75, 110, 43, 1, 0, 70, 81, 71, 96, 99, 72, 60, 0, 2, 1, 100], "stop_ok": true, "sum_ok": true, "wall": 2123.184, "note": "fan2"}
+{"kind": "req", "t": -0.12435999999999936, "bytes": [129, 88, 96], "stop_ok": true, "sum_ok": false, "wall": 2127.521, "note": "fan2"}
+{"kind": "req", "t": -8.21692, "bytes": [129, 88, 96, 59, 130, 131, 8, 0, 0, 0, 0, 0, 35, 0, 6, 170], "stop_ok": true, "sum_ok": true, "wall": 2132.498, "note": "fan2"}
+{"kind": "rep", "t": -7.5830400000000004, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 38, 75, 108, 41, 1, 0, 70, 81, 72, 96, 99, 72, 61, 0, 2, 1, 97], "stop_ok": true, "sum_ok": true, "wall": 2133.132, "note": "fan2"}
+{"kind": "req", "t": -3.246219999999999, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2137.468, "note": "fan2"}
+{"kind": "rep", "t": -2.61304, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 66, 39, 75, 110, 43, 1, 0, 70, 81, 72, 96, 99, 72, 60, 0, 2, 1, 101], "stop_ok": true, "sum_ok": true, "wall": 2138.102, "note": "fan2"}
+{"kind": "rep", "t": -9.99999, "bytes": [79, 80, 40, 184, 246], "stop_ok": false, "sum_ok": false, "wall": 2143.78, "note": "fan2"}
+{"kind": "req", "t": -6.3694299999999995, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2147.411, "note": "fan2"}
+{"kind": "rep", "t": -5.73619, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 65, 39, 75, 110, 42, 1, 0, 71, 81, 72, 96, 99, 72, 60, 0, 1, 1, 99], "stop_ok": true, "sum_ok": true, "wall": 2148.044, "note": "fan2"}
+{"kind": "req", "t": -1.398859999999999, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2152.381, "note": "fan2"}
+{"kind": "rep", "t": -0.7620499999999986, "bytes": [40, 66, 0, 0, 0, 0, 132, 0, 65, 39, 75, 108, 43, 1, 0, 71, 81, 72, 96, 99, 72, 60], "stop_ok": true, "sum_ok": false, "wall": 2153.018, "note": "fan2"}
+{"kind": "req", "t": -9.51008, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2157.345, "note": "fan2"}
+{"kind": "rep", "t": -8.87459, "bytes": [40, 65, 0, 0, 0, 0, 132, 0, 64, 39, 75, 106, 41, 1, 0, 71, 81, 73, 96, 99, 72, 61, 0, 1, 3, 94], "stop_ok": true, "sum_ok": false, "wall": 2157.981, "note": "fan2"}
+{"kind": "req", "t": -4.539409999999999, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2162.316, "note": "fan2"}
+{"kind": "rep", "t": -3.9014799999999994, "bytes": [40, 64, 0, 0, 0, 0, 132, 0, 63, 39, 75, 106, 43, 1, 0, 71, 81, 73, 96, 99, 72, 60, 0, 1, 1, 93], "stop_ok": true, "sum_ok": true, "wall": 2162.954, "note": "fan2"}
+{"kind": "req", "t": -7.67273, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2172.265, "note": "fan2"}
+{"kind": "rep", "t": -7.03785, "bytes": [40, 62, 0, 0, 0, 0, 132, 0, 61, 38, 75, 102, 43, 1, 0, 71, 81, 73, 96, 99, 72, 60, 0, 1, 1, 84], "stop_ok": true, "sum_ok": true, "wall": 2172.899, "note": "fan2"}
+{"kind": "req", "t": -2.70205, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2177.235, "note": "fan2"}
+{"kind": "rep", "t": -2.0648799999999996, "bytes": [40, 62, 0, 0, 0, 0, 132, 0, 60, 38, 75, 102, 43, 1, 0, 71, 82, 73, 96, 99, 72, 61, 0, 1, 1, 85], "stop_ok": true, "sum_ok": true, "wall": 2177.872, "note": "fan2"}
+{"kind": "rep", "t": -10.0, "bytes": [17, 3, 226, 50, 90, 137, 169, 1, 0, 71, 81, 74, 96, 99, 72, 61, 0, 1, 1, 79], "stop_ok": false, "sum_ok": false, "wall": 2183.012, "note": "fan2"}
+{"kind": "req", "t": -5.8444199999999995, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2187.168, "note": "fan2"}
+{"kind": "rep", "t": -5.20782, "bytes": [40, 60, 0, 0, 0, 0, 132, 0, 59, 38, 75, 98, 43, 1, 0, 71, 81, 74, 96, 99, 72, 61, 0, 1, 1, 78], "stop_ok": true, "sum_ok": true, "wall": 2187.804, "note": "fan2"}
+{"kind": "req", "t": -0.8740099999999984, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2192.138, "note": "fan2"}
+{"kind": "rep", "t": -0.2378399999999985, "bytes": [40, 59, 0, 0, 0, 0, 132], "stop_ok": true, "sum_ok": false, "wall": 2192.774, "note": "fan2"}
+{"kind": "req", "t": -8.97767, "bytes": [129, 88, 96, 60, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 168], "stop_ok": true, "sum_ok": true, "wall": 2197.116, "note": "fan2"}
+{"kind": "rep", "t": -8.338899999999999, "bytes": [40, 58, 0, 0, 0, 0, 132, 0, 57, 38, 75, 92, 42, 1, 0, 71, 81, 74, 96, 101, 70, 60, 0, 1, 1, 66], "stop_ok": true, "sum_ok": true, "wall": 2197.755, "note": "fan2"}
+{"kind": "req", "t": -4.007059999999999, "bytes": [129, 88, 96, 61, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 169], "stop_ok": true, "sum_ok": true, "wall": 2202.087, "note": "fan2"}
+{"kind": "rep", "t": -3.36907, "bytes": [40, 57, 0, 0, 0, 0, 132, 0, 56, 37, 75, 92, 41, 1, 0, 71, 81, 74, 96, 101, 70, 60, 0, 1, 1, 62], "stop_ok": true, "sum_ok": true, "wall": 2202.725, "note": "fan2"}
+{"kind": "req", "t": -7.14279, "bytes": [129, 88, 96, 61, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 169], "stop_ok": true, "sum_ok": true, "wall": 2212.022, "note": "fan2"}
+{"kind": "rep", "t": -6.5032, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 37, 75, 88, 42, 1, 0, 71, 81, 74, 96, 101, 70, 60, 0, 2, 1, 59], "stop_ok": true, "sum_ok": true, "wall": 2212.662, "note": "fan2"}
+{"kind": "req", "t": -2.1723099999999995, "bytes": [129, 88, 96, 61, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 169], "stop_ok": true, "sum_ok": true, "wall": 2216.993, "note": "fan2"}
+{"kind": "rep", "t": -1.5366299999999988, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 37, 75, 88, 43, 1, 0, 71, 81, 74, 96, 101, 70, 60, 0, 2, 1, 60], "stop_ok": true, "sum_ok": true, "wall": 2217.628, "note": "fan2"}
+{"kind": "req", "t": -10.0, "bytes": [0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": false, "wall": 2222.235, "note": "fan2"}
+{"kind": "rep", "t": -9.63691, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 88, 42, 1, 0, 71, 80, 73, 96, 101, 70, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 2222.598, "note": "fan2"}
+{"kind": "req", "t": -5.300319999999999, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2226.935, "note": "fan2"}
+{"kind": "rep", "t": -4.66404, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 88, 43, 1, 0, 71, 80, 73, 96, 101, 70, 60, 0, 2, 1, 57], "stop_ok": true, "sum_ok": true, "wall": 2227.571, "note": "fan2"}
+{"kind": "req", "t": -0.3296499999999991, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0], "stop_ok": true, "sum_ok": false, "wall": 2231.905, "note": "fan2"}
+{"kind": "req", "t": -8.43348, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2236.882, "note": "fan2"}
+{"kind": "rep", "t": -7.79561, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 88, 43, 1, 0, 70, 80, 73, 96, 101, 70, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 2237.52, "note": "fan2"}
+{"kind": "req", "t": -3.462999999999999, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2241.853, "note": "fan2"}
+{"kind": "rep", "t": -2.8265199999999995, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 88, 41, 1, 0, 71, 80, 73, 96, 101, 70, 60, 0, 2, 1, 55], "stop_ok": true, "sum_ok": true, "wall": 2242.489, "note": "fan2"}
+{"kind": "req", "t": -6.5744299999999996, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2251.789, "note": "fan2"}
+{"kind": "rep", "t": -5.937329999999999, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 88, 43, 1, 0, 71, 80, 72, 96, 101, 70, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 2252.427, "note": "fan2"}
+{"kind": "req", "t": -1.60393, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2256.76, "note": "fan2"}
+{"kind": "rep", "t": -0.9690599999999989, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 88, 42, 1, 0, 71, 80, 72, 96, 101, 70, 60, 0, 2, 1, 55], "stop_ok": true, "sum_ok": true, "wall": 2257.395, "note": "fan2"}
+{"kind": "req", "t": -9.698, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2261.737, "note": "fan2"}
+{"kind": "rep", "t": -9.06041, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 88, 43, 1, 0, 71, 80, 72, 96, 101, 70, 60, 0, 2, 1, 56], "stop_ok": true, "sum_ok": true, "wall": 2262.374, "note": "fan2"}
+{"kind": "req", "t": -4.7273, "bytes": [129, 88, 96, 63, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 171], "stop_ok": true, "sum_ok": true, "wall": 2266.707, "note": "fan2"}
+{"kind": "rep", "t": -4.092829999999999, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 88, 41, 1, 0, 71, 80, 71, 96, 101, 70, 60, 0, 2, 1, 53], "stop_ok": true, "sum_ok": true, "wall": 2267.342, "note": "fan2"}
+{"kind": "req", "t": -7.84942, "bytes": [129, 88, 96, 63, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 171], "stop_ok": true, "sum_ok": true, "wall": 2276.65, "note": "fan2"}
+{"kind": "rep", "t": -7.21362, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 86, 43, 1, 0, 71, 81, 71, 96, 101, 70, 60, 0, 2, 1, 54], "stop_ok": true, "sum_ok": true, "wall": 2277.285, "note": "fan2"}
+{"kind": "req", "t": -2.878849999999999, "bytes": [129, 88, 96, 63, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 171], "stop_ok": true, "sum_ok": true, "wall": 2281.62, "note": "fan2"}
+{"kind": "rep", "t": -2.2404199999999994, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 88, 43, 1, 0, 71, 81, 71, 96, 101, 68, 60, 0, 2, 1, 54], "stop_ok": true, "sum_ok": true, "wall": 2282.259, "note": "fan2"}
+{"kind": "rep", "t": -9.99891, "bytes": [41, 149, 41, 2, 71, 81, 71, 96, 102, 68, 60, 0, 2, 1, 52], "stop_ok": false, "sum_ok": false, "wall": 2287.573, "note": "fan2"}
+{"kind": "req", "t": -6.01032, "bytes": [129, 88, 96, 63, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 171], "stop_ok": true, "sum_ok": true, "wall": 2291.562, "note": "fan2"}
+{"kind": "rep", "t": -5.375439999999999, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 86, 44, 1, 0, 71, 81, 71, 96, 102, 68, 60, 0, 2, 1, 54], "stop_ok": true, "sum_ok": true, "wall": 2292.197, "note": "fan2"}
+{"kind": "req", "t": -1.03979, "bytes": [129, 88, 96, 63, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 171], "stop_ok": true, "sum_ok": true, "wall": 2296.532, "note": "fan2"}
+{"kind": "rep", "t": -0.4020199999999985, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 35, 75, 86], "stop_ok": true, "sum_ok": false, "wall": 2297.17, "note": "fan2"}
+{"kind": "req", "t": -9.14926, "bytes": [129, 88, 96, 63, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 171], "stop_ok": true, "sum_ok": true, "wall": 2301.497, "note": "fan2"}
+{"kind": "rep", "t": -8.51361, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 35, 75, 86, 43, 1, 0, 71, 81, 70, 96, 102, 68, 60, 0, 2, 1, 51], "stop_ok": true, "sum_ok": true, "wall": 2302.133, "note": "fan2"}
+{"kind": "req", "t": -4.17859, "bytes": [129, 88, 96, 63, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 171], "stop_ok": true, "sum_ok": true, "wall": 2306.468, "note": "fan2"}
+{"kind": "rep", "t": -3.5403199999999995, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 120, 35, 75, 86, 42, 1, 0, 71, 81, 70, 96, 102, 68, 60, 0, 2, 1, 50], "stop_ok": true, "sum_ok": false, "wall": 2307.106, "note": "fan2"}
+{"kind": "req", "t": -7.31225, "bytes": [129, 88, 96, 63, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 171], "stop_ok": true, "sum_ok": true, "wall": 2316.408, "note": "fan2"}
+{"kind": "rep", "t": -6.678179999999999, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 35, 75, 86, 43, 1, 0, 71, 81, 70, 96, 102, 68, 60, 0, 2, 1, 51], "stop_ok": true, "sum_ok": true, "wall": 2317.042, "note": "fan2"}
+{"kind": "req", "t": -2.3417699999999995, "bytes": [129, 88, 96, 63, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 171], "stop_ok": true, "sum_ok": true, "wall": 2321.379, "note": "fan2"}
+{"kind": "rep", "t": -1.7043, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 35, 75, 86, 42, 1, 0, 71, 81, 69, 96, 102, 68, 60, 0, 2, 1, 49], "stop_ok": true, "sum_ok": true, "wall": 2322.016, "note": "fan2"}
+{"kind": "req", "t": -10.0, "bytes": [4, 171], "stop_ok": true, "sum_ok": false, "wall": 2326.786, "note": "fan2"}
+{"kind": "rep", "t": -9.79595, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 35, 75, 86, 44, 1, 0, 71, 80, 69, 96, 102, 68, 60, 0, 2, 1, 50], "stop_ok": true, "sum_ok": true, "wall": 2326.99, "note": "fan2"}
+{"kind": "req", "t": -5.4632499999999995, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2331.323, "note": "fan2"}
+{"kind": "rep", "t": -4.8255, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 35, 75, 86, 41, 1, 0, 71, 80, 69, 96, 102, 68, 60, 0, 2, 1, 47], "stop_ok": true, "sum_ok": true, "wall": 2331.961, "note": "fan2"}
+{"kind": "req", "t": -0.49258999999999986, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0], "stop_ok": true, "sum_ok": false, "wall": 2336.293, "note": "fan2"}
+{"kind": "req", "t": -8.60964, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2341.257, "note": "fan2"}
+{"kind": "rep", "t": -7.97307, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 35, 75, 84, 42, 1, 0, 70, 80, 69, 96, 102, 68, 60, 0, 2, 1, 45], "stop_ok": true, "sum_ok": true, "wall": 2341.893, "note": "fan2"}
+{"kind": "req", "t": -3.6391199999999992, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2346.227, "note": "fan2"}
+{"kind": "rep", "t": -3.00458, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 34, 75, 84, 42, 1, 0, 70, 80, 68, 96, 102, 68, 60, 0, 2, 1, 43], "stop_ok": true, "sum_ok": true, "wall": 2346.862, "note": "fan2"}
+{"kind": "req", "t": -6.75599, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2356.179, "note": "fan2"}
+{"kind": "rep", "t": -6.1205, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 34, 75, 84, 44, 1, 0, 70, 79, 68, 96, 102, 68, 60, 0, 2, 1, 44], "stop_ok": true, "sum_ok": true, "wall": 2356.814, "note": "fan2"}
+{"kind": "req", "t": -1.7853999999999992, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2361.149, "note": "fan2"}
+{"kind": "rep", "t": -1.14691, "bytes": [40, 120, 0, 0, 0, 0, 132, 0, 56, 34, 75, 82, 43, 1, 0, 70, 79, 68, 96, 102, 68, 60, 0, 2, 1, 41], "stop_ok": true, "sum_ok": false, "wall": 2361.788, "note": "fan2"}
+{"kind": "req", "t": -9.89064, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2366.118, "note": "fan2"}
+{"kind": "rep", "t": -9.25391, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 34, 75, 84, 43, 1, 0, 70, 79, 67, 96, 102, 68, 60, 0, 2, 1, 42], "stop_ok": true, "sum_ok": true, "wall": 2366.755, "note": "fan2"}
+{"kind": "req", "t": -4.9200099999999996, "bytes": [129, 88, 96, 62, 130, 130, 8, 0, 0, 0, 0, 0, 35, 0, 4, 170], "stop_ok": true, "sum_ok": true, "wall": 2371.089, "note": "fan2"}
+{"kind": "rep", "t": -4.285329999999999, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 34, 75, 82, 42, 1, 0, 70, 78, 67, 96, 102, 68, 60, 0, 2, 1, 38], "stop_ok": true, "sum_ok": true, "wall": 2371.723, "note": "fan2"}
+{"kind": "req", "t": -8.07058, "bytes": [129, 88, 96, 62, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 167], "stop_ok": true, "sum_ok": true, "wall": 2381.033, "note": "fan2"}
+{"kind": "rep", "t": -7.43693, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 34, 75, 84, 42, 1, 0, 70, 78, 67, 96, 102, 67, 59, 0, 2, 1, 38], "stop_ok": true, "sum_ok": true, "wall": 2381.666, "note": "fan2"}
+{"kind": "req", "t": -3.0999599999999994, "bytes": [129, 88, 96, 62, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 167], "stop_ok": true, "sum_ok": true, "wall": 2386.003, "note": "fan2"}
+{"kind": "rep", "t": -2.4638199999999992, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 34, 75, 84, 42, 1, 0, 70, 78, 66, 96, 102, 67, 60, 0, 2, 1, 38], "stop_ok": true, "sum_ok": true, "wall": 2386.64, "note": "fan2"}
+{"kind": "rep", "t": -10.0, "bytes": [129, 153, 13, 241, 0, 2, 1, 40], "stop_ok": false, "sum_ok": false, "wall": 2392.191, "note": "fan2"}
+{"kind": "req", "t": -6.24784, "bytes": [129, 88, 96, 64, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 169], "stop_ok": true, "sum_ok": true, "wall": 2395.943, "note": "fan2"}
+{"kind": "rep", "t": -5.61025, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 35, 75, 86, 42, 1, 0, 70, 78, 66, 96, 102, 67, 60, 0, 2, 1, 41], "stop_ok": true, "sum_ok": true, "wall": 2396.581, "note": "fan2"}
+{"kind": "req", "t": -1.277379999999999, "bytes": [129, 88, 96, 64, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 169], "stop_ok": true, "sum_ok": true, "wall": 2400.913, "note": "fan2"}
+{"kind": "rep", "t": -0.6420699999999986, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 35, 75, 88, 44, 1, 0, 70, 78, 66, 96], "stop_ok": true, "sum_ok": false, "wall": 2401.549, "note": "fan2"}
+{"kind": "req", "t": -9.38879, "bytes": [129, 88, 96, 64, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 169], "stop_ok": true, "sum_ok": true, "wall": 2405.885, "note": "fan2"}
+{"kind": "rep", "t": -8.74997, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 86, 43, 1, 0, 70, 78, 66, 96, 102, 67, 60, 0, 6, 1, 43], "stop_ok": true, "sum_ok": false, "wall": 2406.524, "note": "fan2"}
+{"kind": "req", "t": -4.4181099999999995, "bytes": [129, 88, 96, 65, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 2410.856, "note": "fan2"}
+{"kind": "rep", "t": -3.7820599999999995, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 86, 43, 1, 0, 70, 78, 66, 96, 102, 67, 60, 0, 2, 1, 43], "stop_ok": true, "sum_ok": true, "wall": 2411.492, "note": "fan2"}
+{"kind": "req", "t": -7.54346, "bytes": [129, 88, 96, 65, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 170], "stop_ok": true, "sum_ok": true, "wall": 2420.79, "note": "fan2"}
+{"kind": "rep", "t": -6.9073899999999995, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 88, 42, 1, 0, 70, 79, 66, 96, 102, 67, 60, 0, 2, 1, 45], "stop_ok": true, "sum_ok": true, "wall": 2421.426, "note": "fan2"}
+{"kind": "req", "t": -2.5730399999999998, "bytes": [129, 88, 96, 66, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 2425.76, "note": "fan2"}
+{"kind": "rep", "t": -1.93947, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 88, 42, 1, 0, 70, 79, 66, 96, 102, 67, 61, 0, 2, 1, 46], "stop_ok": true, "sum_ok": true, "wall": 2426.394, "note": "fan2"}
+{"kind": "rep", "t": -9.99765, "bytes": [194, 2, 2, 2, 1, 17, 3, 194, 34, 90, 97, 157, 1, 0, 70, 79, 66, 96, 102, 67, 60, 0, 2, 1, 42], "stop_ok": false, "sum_ok": false, "wall": 2431.402, "note": "fan2"}
+{"kind": "req", "t": -5.689019999999999, "bytes": [129, 88, 96, 66, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 2435.71, "note": "fan2"}
+{"kind": "rep", "t": -5.053369999999999, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 36, 75, 90, 43, 1, 0, 70, 79, 66, 96, 102, 67, 60, 0, 2, 1, 48], "stop_ok": true, "sum_ok": true, "wall": 2436.346, "note": "fan2"}
+{"kind": "req", "t": -0.7185699999999997, "bytes": [129, 88, 96, 66, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 2440.681, "note": "fan2"}
+{"kind": "rep", "t": -0.0803699999999985, "bytes": [40, 56], "stop_ok": true, "sum_ok": false, "wall": 2441.319, "note": "fan2"}
+{"kind": "req", "t": -8.86893, "bytes": [129, 88, 96, 66, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 2445.649, "note": "fan2"}
+{"kind": "rep", "t": -8.23224, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 37, 75, 90, 42, 1, 0, 70, 80, 67, 96, 102, 67, 60, 0, 2, 1, 50], "stop_ok": true, "sum_ok": true, "wall": 2446.286, "note": "fan2"}
+{"kind": "req", "t": -3.8982599999999996, "bytes": [129, 88, 96, 66, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 2450.62, "note": "fan2"}
+{"kind": "rep", "t": -3.25939, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 37, 75, 90, 43, 1, 0, 70, 80, 67, 96, 102, 67, 60, 0, 2, 1, 51], "stop_ok": true, "sum_ok": true, "wall": 2451.259, "note": "fan2"}
+{"kind": "req", "t": -7.04524, "bytes": [129, 88, 96, 66, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 2460.557, "note": "fan2"}
+{"kind": "rep", "t": -6.4121, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 37, 75, 90, 43, 1, 0, 70, 80, 67, 96, 102, 67, 60, 0, 2, 1, 51], "stop_ok": true, "sum_ok": true, "wall": 2461.19, "note": "fan2"}
+{"kind": "req", "t": -2.0746899999999995, "bytes": [129, 88, 96, 66, 130, 129, 8, 0, 0, 0, 0, 0, 35, 0, 2, 171], "stop_ok": true, "sum_ok": true, "wall": 2465.528, "note": "fan2"}
+{"kind": "rep", "t": -1.439, "bytes": [40, 56, 0, 0, 0, 0, 132, 0, 56, 37, 75, 90, 42, 1, 0, 70, 80, 67, 96, 102, 67, 60, 0, 2, 1, 50], "stop_ok": true, "sum_ok": true, "wall": 2466.163, "note": "fan2"}
