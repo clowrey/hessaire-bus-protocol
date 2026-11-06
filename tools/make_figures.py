@@ -151,10 +151,10 @@ REP_MAP = [
     ('0', 'header', 'unknown', '28'), ('1', '? (with 8)', 'unknown', '34'), ('2', 'zero', 'unknown', '00'),
     ('3', 'zero', 'unknown', '00'), ('4', 'zero', 'unknown', '00'), ('5', 'zero', 'unknown', '00'),
     ('6', '?', 'unknown', '84'), ('7', 'zero', 'unknown', '00'), ('8', '? (with 1)', 'unknown', '34'),
-    ('9', 'current?', 'guess', '24'), ('10', 'comp. target', 'probable', '4B'), ('11', 'comp. speed', 'probable', '52'),
+    ('9', 'comp. current', 'probable', '24'), ('10', 'demand', 'probable', '4B'), ('11', 'comp. Hz', 'probable', '52'),
     ('12', '?', 'unknown', '2B'), ('13', '?', 'unknown', '01'), ('14', 'zero', 'unknown', '00'),
-    ('15', '? sensor', 'unknown', '45'), ('16', '? sensor', 'unknown', '4D'), ('17', 'discharge?', 'guess', '48'),
-    ('18', 'room echo', 'confirmed', '62'), ('19', 'valve pos.', 'probable', '7B'), ('20', 'stage?', 'guess', '3F'),
+    ('15', '? sensor', 'unknown', '45'), ('16', '? sensor', 'unknown', '4D'), ('17', 'discharge T', 'probable', '48'),
+    ('18', 'room echo', 'confirmed', '62'), ('19', 'valve (×2)', 'probable', '7B'), ('20', 'outdoor fan', 'probable', '3F'),
     ('21', '?', 'unknown', '3C'), ('22', 'zero', 'unknown', '00'), ('23', 'start stage?', 'guess', '02'),
     ('24', '?', 'unknown', '01'), ('25', 'checksum', 'confirmed', 'sum'),
 ]
@@ -204,7 +204,7 @@ ax[0].set_ylim(14, 31); ax[0].set_ylabel('°C  =  (byte − 40) / 2')
 ax[0].set_title('Request byte 1 follows every setpoint change on the remote')
 ax[1].step(tp, tgt, where='post', color=REP, lw=2)
 ax[1].set_ylim(50, 80); ax[1].set_ylabel('raw value')
-ax[1].set_title('Reply byte 10 (compressor target?) drops as the setpoint nears the 29 °C room')
+ax[1].set_title('Reply byte 10 (cooling demand) drops as the setpoint nears the 29 °C room')
 ax[1].set_xlabel('minutes into the experiment')
 fig.tight_layout(); save(fig, 'setpoint.png')
 
@@ -221,13 +221,13 @@ ax[0].step(tq, mv, where='post', color=REQ, lw=2)
 ax[0].set_yticks([0, 1, 2]); ax[0].set_yticklabels(['Fan only  0x80', 'Dry  0x83', 'Cool  0x82'])
 ax[0].set_ylim(-0.5, 2.5); ax[0].set_title('Request byte 4 = mode')
 ax[1].step(tp, [r['bytes'][10] for r in p], where='post', color=REP, lw=2)
-ax[1].set_ylim(-5, 85); ax[1].set_title('Reply byte 10: compressor target (0 in Fan only, 60 in Dry)')
+ax[1].set_ylim(-5, 85); ax[1].set_title('Reply byte 10: cooling demand (0 in Fan only, 60 in Dry)')
 ax[2].step(tp, [r['bytes'][11] for r in p], where='post', color=REP, lw=2)
-ax[2].set_ylim(-5, 95); ax[2].set_title('Reply byte 11: compressor speed (stops ~10 s after Fan only, waits to restart)')
+ax[2].set_ylim(-5, 115); ax[2].set_title('Reply byte 11: compressor frequency, Hz (stops ~10 s after Fan only, waits to restart)')
 ax[3].step(tp, [r['bytes'][23] for r in p], where='post', color=REP, lw=2)
 ax[3].set_ylim(-0.5, 2.5); ax[3].set_yticks([0, 1, 2]); ax[3].set_title('Reply byte 23: stays 0 here, even after the restart (it read 1, then 2, during the first start-up)')
 ax[3].set_xlabel('minutes')
-for x in ax[1:3]: x.set_ylabel('raw')
+ax[1].set_ylabel('raw'); ax[2].set_ylabel('Hz')
 fig.tight_layout(); save(fig, 'modes.png')
 
 # ---------- 6. start-up trends ----------
@@ -257,14 +257,38 @@ ax[0].text(tq[-1] + 0.1, deg(Q[-1][3]), 'indoor coil (byte 3)', color=INK2, va='
 ax[0].legend(['request byte 2: room', 'request byte 3: indoor coil'], loc='center', bbox_to_anchor=(0.42, 0.62), frameon=False, fontsize=8.5)
 ax[0].set_ylabel('°C'); ax[0].set_title('Indoor temperatures after start-up, (byte − 40) / 2')
 ax[1].plot(*gapped(tp, [b[11] for b in P]), color=REP, lw=2, marker='o', ms=3, mec=SURF, mew=0.6)
-ax[1].set_ylabel('raw'); ax[1].set_title('Reply byte 11 (compressor speed?): 56 at start, 112 three minutes later, then about 85')
+ax[1].set_ylabel('Hz'); ax[1].set_title('Reply byte 11: compressor frequency, Hz: 56 at start, 112 three minutes later, then about 85')
 ax[2].plot(*gapped(tp, [b[17] for b in P]), color=REP, lw=2, marker='o', ms=3, mec=SURF, mew=0.6)
-ax[2].set_ylabel('raw'); ax[2].set_title('Reply byte 17: climbs steadily (discharge temperature in °C?)')
+ax[2].set_ylabel('raw'); ax[2].set_title('Reply byte 17: discharge temperature, raw (scale unconfirmed)')
 ax[2].set_xlabel('minutes after the first decoded exchange (gaps = logger not running)')
 ax[0].set_xlim(-0.2, tq[-1] + 2.0)
 fig.tight_layout(); save(fig, 'startup.png')
 print('first request :', ' '.join(f'{x:02X}' for x in first_req))
 print('first reply   :', ' '.join(f'{x:02X}' for x in first_rep))
+
+
+# ---------- 7. compressor stop and restart ----------
+p = section({'modes', 'fan'}, 'rep', 26)
+tS = p[0]['wall']
+tp = np.array([r['wall'] - tS for r in p]) / 60
+B = np.array([r['bytes'] for r in p])
+panels = [
+    (B[:, 11], 'Hz', 'Reply byte 11: compressor frequency, Hz'),
+    (B[:, 9], 'raw', 'Reply byte 9: compressor current (raw; 0 whenever the compressor is off)'),
+    (B[:, 19] * 2, 'steps', 'Reply byte 19 × 2: expansion valve steps (opens fully to 500 and resets to 200 at stop)'),
+    (B[:, 20] * 10, 'RPM', 'Reply byte 20 × 10: outdoor fan RPM (held at 630 while the compressor was off)'),
+    (B[:, 17], 'raw', 'Reply byte 17: discharge temperature, raw (cools while off, warms after restart)'),
+]
+fig, ax = plt.subplots(len(panels), 1, figsize=(10, 9.2), sharex=True)
+stop = tp[np.argmax(B[:, 11] == 0)]
+start = tp[np.flatnonzero((B[:-1, 11] == 0) & (B[1:, 11] > 0))[0] + 1]
+for a, (y, unit, title) in zip(ax, panels):
+    a.step(tp, y, where='post', color=REP, lw=2)
+    a.axvspan(stop, start, color=GRID, alpha=0.6, lw=0)
+    a.set_title(title); a.set_ylabel(unit)
+ax[0].text((stop + start) / 2, B[:, 11].max() * 0.55, 'compressor off', ha='center', color=INK2, fontsize=9)
+ax[-1].set_xlabel('minutes (Fan only at the start, then Dry, then Cool)')
+fig.tight_layout(); save(fig, 'compressor_cycle.png')
 
 # ---------- byte ranges for the README tables ----------
 for kind, L in (('req', 16), ('rep', 26)):

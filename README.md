@@ -103,17 +103,17 @@ The first request captured after the repair:
 | 6 | `84` | never changes | unknown | constant |
 | 7 | `00` | always zero | unused | constant |
 | 8 | `00`–`42` | moves together with byte 1 | unknown | unknown |
-| 9 | `00`–`27` | 24 at start, rose to 39 with the compressor, then about 35 | current? | guess |
-| 10 | `00`–`4B` | 75 in Cool with a large room/setpoint gap, 69 at 24 °C, 59 at 26 °C, 0 in Fan only, 60 in Dry | compressor target speed | probable |
-| 11 | `00`–`70` | 56 at start, 112 after 3 minutes, about 85 steady; 0 about 10 s after Fan only, ramped back after the restart delay | actual compressor speed | probable |
+| 9 | `00`–`27` | exactly 0 whenever the compressor is off; rises with it on restart; about 35 while running | compressor current. McKee's scaling, A = b × 0.117 + 0.92, would give about 5 A; unconfirmed | probable |
+| 10 | `00`–`4B` | 75 in Cool with a large room/setpoint gap, 69 at 24 °C, 59 at 26 °C, 0 in Fan only, 60 in Dry; the compressor often runs above it | cooling demand or capacity request, not a speed the compressor follows | probable |
+| 11 | `00`–`70` | 56 at start, 112 after 3 minutes, about 85 steady; 0 about 10 s after Fan only, ramped 4 → 108 after the restart delay | compressor frequency in Hz, raw, as in McKee's decode | probable |
 | 12 | `16`–`D5` | about 42 while running, jumps to about 163 when the compressor stops | unknown | unknown |
 | 13 | `00`–`01` | | unknown | unknown |
 | 14 | `00` | always zero | unused | constant |
 | 15, 16 | `43`–`52` | slow drift | unknown sensors | unknown |
-| 17 | `22`–`4B` | 34 at start, climbs to about 75 | discharge temperature in °C? | guess |
+| 17 | `22`–`4B` | 34 at start, climbs to about 75; cools from 67 to 53 while the compressor is off | discharge temperature. Raw °C would give 53–75 °C, McKee's °C = b × 0.46 + 15.8 gives 40–50 °C; scale unconfirmed | probable |
 | 18 | `5E`–`66` | always equal to request byte 2 | echo of the room temperature | confirmed |
-| 19 | `63`–`FA` | 100 at start, up to about 150 while running, jumped 179 / 250 / 118 / 100 when the compressor stopped | expansion-valve position (too fast for a temperature) | probable |
-| 20 | `00`–`48` | 0 at start, stepped to about 63–65 | fan or valve stage? | guess |
+| 19 | `63`–`FA` | 200 steps at rest, opens slowly to 300 while running, goes fully open to 500 and resets to 200 when the compressor stops | expansion-valve position, steps = b × 2, as in McKee's decode | probable |
+| 20 | `00`–`48` | 0 at start, then 630–720 RPM; held at 630 while the compressor was off for 4 minutes | outdoor fan, RPM = b × 10, as in McKee's decode; may be a target rather than the measured speed | probable |
 | 21 | `39`–`3D` | jitters | unknown | unknown |
 | 22 | `00` | always zero | unused | constant |
 | 23 | `00`–`02` | 0, 1, 2 during the first start-up; stayed 0 after a later restart | start-up stage? | guess |
@@ -150,7 +150,7 @@ The remote converts Fahrenheit to whole degrees Celsius before sending. In Dry m
 
 ![Mode experiment](figures/modes.png)
 
-| Mode | Request byte 4 | Reply byte 10 | Compressor (reply byte 11) |
+| Mode | Request byte 4 | Reply byte 10 (demand) | Compressor (reply byte 11) |
 |---|---|---|---|
 | Cool | `82` | 75 | runs |
 | Fan only | `80` | 0 | stops within about 10 s |
@@ -171,6 +171,20 @@ The fan steps were changed faster than the 5-second poll, so only some steps wer
 | Lowest, and Dry | `82` | 4 |
 
 On Auto, byte 14 changed by itself as the room cooled, so it seems to report the speed the indoor fan actually runs rather than the button setting.
+
+### Compressor stop and restart
+
+Switching to Fan only stopped the compressor; Dry and then Cool restarted it after the usual delay. The reply bytes for the compressor, its current, the expansion valve and the discharge temperature all move together.
+
+![Compressor stop and restart](figures/compressor_cycle.png)
+
+| Reply byte | Compressor running | Compressor stopped |
+|---|---|---|
+| 11, compressor Hz | 4–108, ramping after the restart | 0 |
+| 9, current | 9–38, rising with the compressor | 0 |
+| 19 × 2, valve steps | 200 | 358, then 500 (fully open), then 200 |
+| 20 × 10, outdoor fan RPM | 630 | 630 |
+| 17, discharge temperature | 53 → 68, rising | 67 → 53, falling |
 
 ### Start-up
 
@@ -196,7 +210,7 @@ The framing, however, differs from the one documented for another Midea unit. Fl
 | Checksum | two's complement of the sum of bytes 1–15 | sum of all preceding bytes |
 | Setpoint | whole °C in one byte; half-degrees with an offset of 50 (Celsius remote) or 48 (Fahrenheit remote) in another | half-degrees with an offset of 40 |
 
-So the physical idea is shared but the framing is not: there is no single "Midea S-wire protocol". This could be an older or different Midea generation, or a different manufacturer using the same wiring scheme. A capture from another Midea-built unit with the same format would settle it.
+Several of McKee's scalings do fit this unit's reply: valve steps = byte × 2, outdoor fan RPM = byte × 10, and compressor frequency in raw Hz. So the physical idea and some encodings are shared, but the framing is not: there is no single "Midea S-wire protocol". This could be an older or different Midea generation, or a different manufacturer using the same wiring scheme. A capture from another Midea-built unit with the same format would settle it.
 
 Other documented Midea buses, all different from this one:
 
@@ -209,7 +223,7 @@ Other documented Midea buses, all different from this one:
 ## Limits of this decode
 
 - **Confidence levels.** *Confirmed* means a controlled change on the remote moved the byte as predicted. *Probable* means the byte behaves the way the named quantity must. *Guess* means a plausible match with weak evidence. *Unknown* means no interpretation yet.
-- **No reference instruments.** Room, coil, discharge and current readings were not compared against a thermometer or clamp meter, so their scaling is inferred.
+- **No reference instruments.** Room, coil, discharge and current readings were not compared against a thermometer or clamp meter, so their scaling is inferred. McKee calibrated his decode with a Midea inverter tester on the outdoor board's diagnostic port; if this unit has that port, the same tool would settle the remaining scales.
 - **One unit, one firmware.** Other units, including other Midea-built ones, use different framing on the same kind of wire; see [Manufacturer and related protocols](#manufacturer-and-related-protocols).
 - **Not yet captured:** Heat mode, the remote labels for fan steps 3, 6 and 7, defrost, and error states.
 - **Listen only.** Nothing was ever transmitted on the bus. Injecting frames could confuse both boards.
